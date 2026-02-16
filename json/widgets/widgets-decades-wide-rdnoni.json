@@ -9,35 +9,35 @@
           "items": [
             {
               "hideTitle": true,
-              "id": "E2E373AE-4560-4BD7-9090-15B4F0849FBC",
+              "id": "C6E94F33-3BD9-4582-A78A-E9FCFC2E53B5",
               "imageAspect": "wide",
               "imageURL": "https://raw.githubusercontent.com/itsrenoria/fusion-starter-kit/refs/heads/main/resources/widgets/decades/wide/rdnoni/1980s-wide.jpg",
               "title": "1980s"
             },
             {
               "hideTitle": true,
-              "id": "CFB7B2A7-91A5-4D5F-994C-83A5BF895047",
+              "id": "7BE225B8-B8A3-48A2-ABB9-EAD216A4F78A",
               "imageAspect": "wide",
               "imageURL": "https://raw.githubusercontent.com/itsrenoria/fusion-starter-kit/refs/heads/main/resources/widgets/decades/wide/rdnoni/1990s-wide.jpg",
               "title": "1990s"
             },
             {
               "hideTitle": true,
-              "id": "978B3E98-893E-4B29-9192-37010A111C90",
+              "id": "D96F2DCC-AC27-4FA1-B430-40E84733152C",
               "imageAspect": "wide",
               "imageURL": "https://raw.githubusercontent.com/itsrenoria/fusion-starter-kit/refs/heads/main/resources/widgets/decades/wide/rdnoni/2000s-wide.jpg",
               "title": "2000s"
             },
             {
               "hideTitle": true,
-              "id": "5C32368B-6105-4630-878D-05A6A9F399D7",
+              "id": "3E9A3D75-2EC3-4860-A1ED-460501BB0CE9",
               "imageAspect": "wide",
               "imageURL": "https://raw.githubusercontent.com/itsrenoria/fusion-starter-kit/refs/heads/main/resources/widgets/decades/wide/rdnoni/2010s-wide.jpg",
               "title": "2010s"
             },
             {
               "hideTitle": true,
-              "id": "A19B01BD-D575-4A42-A6FC-829123604502",
+              "id": "56F3BE1B-072E-49D1-AFD8-DD2283740A04",
               "imageAspect": "wide",
               "imageURL": "https://raw.githubusercontent.com/itsrenoria/fusion-starter-kit/refs/heads/main/resources/widgets/decades/wide/rdnoni/2020s-wide.jpg",
               "title": "2020s"
@@ -45,7 +45,7 @@
           ]
         }
       },
-      "id": "collection.6008FA56-FF00-4C40-A4DD-97C992AD8746",
+      "id": "collection.1F8F0EDF-4F65-4312-8880-FDED86C77271",
       "title": "Decades",
       "type": "collection.row"
     }

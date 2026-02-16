@@ -9,42 +9,42 @@
           "items": [
             {
               "hideTitle": true,
-              "id": "8CDE91D5-44FE-4C0C-B81A-AEA98FDF3FC4",
+              "id": "C58803F9-FD39-4883-B071-EFD2F1958B30",
               "imageAspect": "poster",
               "imageURL": "https://raw.githubusercontent.com/itsrenoria/fusion-starter-kit/refs/heads/main/resources/widgets/awards/poster/mousa.a/bafta-poster.png",
               "title": "Bafta"
             },
             {
               "hideTitle": true,
-              "id": "F11D28AB-C711-445D-AA4D-252101143B55",
+              "id": "916FFA3C-C83F-4D5B-8C16-73EE10466C7D",
               "imageAspect": "poster",
               "imageURL": "https://raw.githubusercontent.com/itsrenoria/fusion-starter-kit/refs/heads/main/resources/widgets/awards/poster/mousa.a/fisa-poster.png",
               "title": "Fisa"
             },
             {
               "hideTitle": true,
-              "id": "2F563EB8-A15D-4FD2-B7B8-83DAB0B7DA46",
+              "id": "7625F088-76A2-4205-AEEF-57BB9213B6A4",
               "imageAspect": "poster",
               "imageURL": "https://raw.githubusercontent.com/itsrenoria/fusion-starter-kit/refs/heads/main/resources/widgets/awards/poster/mousa.a/goldenglobes-poster.png",
               "title": "Goldenglobes"
             },
             {
               "hideTitle": true,
-              "id": "B41B8AD0-99A4-496C-9CAD-725E80AA7109",
+              "id": "53E09759-4582-4F74-8CBE-7C11D51238A9",
               "imageAspect": "poster",
               "imageURL": "https://raw.githubusercontent.com/itsrenoria/fusion-starter-kit/refs/heads/main/resources/widgets/awards/poster/mousa.a/iff-poster.png",
               "title": "Iff"
             },
             {
               "hideTitle": true,
-              "id": "582DB72B-9CCE-426D-80DC-6A0925AE131D",
+              "id": "C4D3FAA0-AD75-46F1-A852-B9E8B3659034",
               "imageAspect": "poster",
               "imageURL": "https://raw.githubusercontent.com/itsrenoria/fusion-starter-kit/refs/heads/main/resources/widgets/awards/poster/mousa.a/oscars-poster.png",
               "title": "Oscars"
             },
             {
               "hideTitle": true,
-              "id": "8B867C1C-922D-4B36-B518-7C20B7C9B826",
+              "id": "A0B38152-ED99-4E70-BDBB-97968091B3E0",
               "imageAspect": "poster",
               "imageURL": "https://raw.githubusercontent.com/itsrenoria/fusion-starter-kit/refs/heads/main/resources/widgets/awards/poster/mousa.a/viff-poster.png",
               "title": "Viff"
@@ -52,7 +52,7 @@
           ]
         }
       },
-      "id": "collection.7796E052-1B4B-4B5A-9505-A479852EE047",
+      "id": "collection.624AE481-A010-400F-8C4F-F1ADBAADAA95",
       "title": "Awards",
       "type": "collection.row"
     }

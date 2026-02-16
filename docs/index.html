@@ -390,9 +390,13 @@
             display: flex;
             align-items: center;
             justify-content: center;
-            font-size: 1.1rem;
-            padding-left: 2px;
             box-shadow: 0 6px 16px rgba(0, 0, 0, 0.45);
+        }
+
+        .setup-video-overlay-icon-svg {
+            width: 20px;
+            height: 20px;
+            transform: translateX(1px);
         }
 
         .setup-video-shell.is-playing .setup-video-overlay {
@@ -787,7 +791,135 @@
             cursor: not-allowed;
         }
 
+        .manual-copy-overlay {
+            position: fixed;
+            inset: 0;
+            background: rgba(0, 0, 0, 0.62);
+            backdrop-filter: blur(6px);
+            display: none;
+            align-items: center;
+            justify-content: center;
+            padding: 1rem;
+            z-index: 120;
+        }
+
+        .manual-copy-overlay.active {
+            display: flex;
+        }
+
+        .manual-copy-sheet {
+            width: min(780px, 100%);
+            max-height: 90vh;
+            display: flex;
+            flex-direction: column;
+            background: #101013;
+            border: 1px solid var(--border-card);
+            border-radius: 16px;
+            box-shadow: 0 20px 48px rgba(0, 0, 0, 0.52);
+            overflow: hidden;
+        }
+
+        .manual-copy-header {
+            padding: 1rem 1rem 0.5rem;
+        }
+
+        .manual-copy-title {
+            font-size: 1rem;
+            font-weight: 700;
+            line-height: 1.2;
+        }
+
+        .manual-copy-subtitle {
+            margin-top: 0.35rem;
+            font-size: 0.82rem;
+            color: var(--text-muted);
+            line-height: 1.4;
+        }
+
+        .manual-copy-content {
+            padding: 0.2rem 1rem 0.85rem;
+            flex: 1;
+            min-height: 0;
+        }
+
+        .manual-copy-text {
+            width: 100%;
+            height: min(52vh, 420px);
+            min-height: 180px;
+            resize: vertical;
+            padding: 0.78rem;
+            border-radius: 12px;
+            border: 1px solid var(--border-card);
+            background: rgba(255, 255, 255, 0.02);
+            color: var(--text-main);
+            font-family: ui-monospace, SFMono-Regular, Menlo, Monaco, Consolas, "Liberation Mono", "Courier New", monospace;
+            font-size: 0.74rem;
+            line-height: 1.4;
+            outline: none;
+        }
+
+        .manual-copy-text:focus {
+            border-color: rgba(255, 255, 255, 0.3);
+        }
+
+        .manual-copy-actions {
+            padding: 0 1rem 1rem;
+            border-top: 1px solid rgba(255, 255, 255, 0.06);
+            display: grid;
+            grid-template-columns: 1fr auto auto;
+            gap: 0.6rem;
+            align-items: center;
+        }
+
+        .manual-copy-select,
+        .manual-copy-copy {
+            border: 1px solid var(--border-card);
+            border-radius: 10px;
+            background: rgba(255, 255, 255, 0.03);
+            color: var(--text-main);
+            font-size: 0.82rem;
+            font-weight: 600;
+            padding: 0.72rem 0.84rem;
+            cursor: pointer;
+            transition: border-color 0.2s ease, background-color 0.2s ease;
+            outline: none;
+            -webkit-tap-highlight-color: transparent;
+        }
+
+        .manual-copy-select:hover,
+        .manual-copy-copy:hover {
+            border-color: rgba(255, 255, 255, 0.28);
+            background: rgba(255, 255, 255, 0.06);
+        }
+
+        .manual-copy-select:focus-visible,
+        .manual-copy-copy:focus-visible {
+            border-color: rgba(255, 255, 255, 0.55);
+            box-shadow: 0 0 0 2px rgba(255, 255, 255, 0.2);
+        }
+
         @media (max-width: 680px) {
+            .content-section[data-section="setup"] .grid {
+                display: flex;
+                grid-template-columns: none;
+                overflow-x: auto;
+                overflow-y: hidden;
+                gap: 0.9rem;
+                padding-bottom: 0.3rem;
+                scroll-snap-type: x proximity;
+                -webkit-overflow-scrolling: touch;
+                scrollbar-width: none;
+            }
+
+            .content-section[data-section="setup"] .grid::-webkit-scrollbar {
+                display: none;
+            }
+
+            .content-section[data-section="setup"] .card {
+                flex: 0 0 clamp(220px, 72vw, 260px);
+                scroll-snap-align: start;
+            }
+
             .copy-choice-overlay {
                 align-items: flex-end;
                 padding: 0;
@@ -817,6 +949,20 @@
                 border-bottom: none;
             }
 
+            .manual-copy-overlay {
+                align-items: flex-end;
+                padding: 0;
+            }
+
+            .manual-copy-sheet {
+                width: 100%;
+                max-height: 92vh;
+                border-radius: 18px 18px 0 0;
+                border-left: none;
+                border-right: none;
+                border-bottom: none;
+            }
+
             .builder-controls {
                 grid-template-columns: 1fr;
             }
@@ -825,9 +971,15 @@
                 grid-template-columns: 1fr;
             }
 
+            .manual-copy-actions {
+                grid-template-columns: 1fr;
+            }
+
             .builder-primary-btn,
             .builder-mini-btn,
-            .choice-cancel {
+            .choice-cancel,
+            .manual-copy-select,
+            .manual-copy-copy {
                 width: 100%;
             }
         }
@@ -949,7 +1101,11 @@
                     <div class="setup-video-shell">
                         <video class="setup-preview-video" src="https://raw.githubusercontent.com/itsrenoria/fusion-starter-kit/refs/heads/main/preview/preview-callandt95.MP4" data-remote-src="https://raw.githubusercontent.com/itsrenoria/fusion-starter-kit/refs/heads/main/preview/preview-callandt95.MP4" data-local-src="../preview/preview-callandt95.MP4" poster="https://raw.githubusercontent.com/itsrenoria/fusion-starter-kit/refs/heads/main/preview/preview-callandt95.png" data-remote-poster="https://raw.githubusercontent.com/itsrenoria/fusion-starter-kit/refs/heads/main/preview/preview-callandt95.png" data-local-poster="../preview/preview-callandt95.png" loop muted playsinline preload="auto"></video>
                         <div class="setup-video-overlay" aria-hidden="true">
-                            <span class="setup-video-overlay-icon">▶</span>
+                            <span class="setup-video-overlay-icon">
+                                <svg class="setup-video-overlay-icon-svg" viewBox="0 0 24 24" aria-hidden="true" focusable="false">
+                                    <path d="M9 7.5v9l7-4.5-7-4.5z" fill="currentColor"></path>
+                                </svg>
+                            </span>
                         </div>
                     </div>
                 </div>
@@ -980,7 +1136,11 @@
                     <div class="setup-video-shell">
                         <video class="setup-preview-video" src="https://raw.githubusercontent.com/itsrenoria/fusion-starter-kit/refs/heads/main/preview/preview-snoak%20%F0%9F%90%90.MP4" data-remote-src="https://raw.githubusercontent.com/itsrenoria/fusion-starter-kit/refs/heads/main/preview/preview-snoak%20%F0%9F%90%90.MP4" data-local-src="../preview/preview-snoak%20%F0%9F%90%90.MP4" poster="https://raw.githubusercontent.com/itsrenoria/fusion-starter-kit/refs/heads/main/preview/preview-snoak%20%F0%9F%90%90.png" data-remote-poster="https://raw.githubusercontent.com/itsrenoria/fusion-starter-kit/refs/heads/main/preview/preview-snoak%20%F0%9F%90%90.png" data-local-poster="../preview/preview-snoak%20%F0%9F%90%90.png" loop muted playsinline preload="auto"></video>
                         <div class="setup-video-overlay" aria-hidden="true">
-                            <span class="setup-video-overlay-icon">▶</span>
+                            <span class="setup-video-overlay-icon">
+                                <svg class="setup-video-overlay-icon-svg" viewBox="0 0 24 24" aria-hidden="true" focusable="false">
+                                    <path d="M9 7.5v9l7-4.5-7-4.5z" fill="currentColor"></path>
+                                </svg>
+                            </span>
                         </div>
                     </div>
                 </div>
@@ -1011,7 +1171,11 @@
                     <div class="setup-video-shell">
                         <video class="setup-preview-video" src="https://raw.githubusercontent.com/itsrenoria/fusion-starter-kit/refs/heads/main/preview/preview-ttoadd.MP4" data-remote-src="https://raw.githubusercontent.com/itsrenoria/fusion-starter-kit/refs/heads/main/preview/preview-ttoadd.MP4" data-local-src="../preview/preview-ttoadd.MP4" poster="https://raw.githubusercontent.com/itsrenoria/fusion-starter-kit/refs/heads/main/preview/preview-ttoadd.png" data-remote-poster="https://raw.githubusercontent.com/itsrenoria/fusion-starter-kit/refs/heads/main/preview/preview-ttoadd.png" data-local-poster="../preview/preview-ttoadd.png" loop muted playsinline preload="auto"></video>
                         <div class="setup-video-overlay" aria-hidden="true">
-                            <span class="setup-video-overlay-icon">▶</span>
+                            <span class="setup-video-overlay-icon">
+                                <svg class="setup-video-overlay-icon-svg" viewBox="0 0 24 24" aria-hidden="true" focusable="false">
+                                    <path d="M9 7.5v9l7-4.5-7-4.5z" fill="currentColor"></path>
+                                </svg>
+                            </span>
                         </div>
                     </div>
                 </div>
@@ -1543,13 +1707,16 @@
             </div>
             <div class="grid">
 
-            <div class="card card-icon-pack" data-search="itsrenoria imdb letterboxd mdblist metacritic popcornmeter tmdb tomatometer trakt icon packs icon-packs icons">
+            <div class="card card-icon-pack" data-search="itsrenoria anilist imdb letterboxd mdblist metacritic popcornmeter tmdb tomatometer trakt icon packs icon-packs icons">
                 <div class="card-header-top">
                     <h3 class="card-title">itsrenoria</h3>
                     <span class="badge">Icon Packs</span>
                 </div>
                 <div class="card-preview icon-pack-preview">
                     <div class="icon-grid">
+                        <div class="icon-cell">
+                            <img src="https://raw.githubusercontent.com/itsrenoria/fusion-starter-kit/refs/heads/main/resources/icon-packs/itsrenoria/AniList.png" alt="AniList" loading="lazy" />
+                        </div>
                         <div class="icon-cell">
                             <img src="https://raw.githubusercontent.com/itsrenoria/fusion-starter-kit/refs/heads/main/resources/icon-packs/itsrenoria/IMDB.png" alt="IMDB" loading="lazy" />
                         </div>
@@ -1577,9 +1744,70 @@
                     </div>
                 </div>
                 <div class="card-content">
-                    <p class="generic-description">8 icons</p>
-                    <p class="card-author" style="display:none;">itsrenoria IMDB Letterboxd MDBList Metacritic Popcornmeter TMDB Tomatometer Trakt Icon Packs icon-packs icons</p>
+                    <p class="generic-description">9 icons</p>
+                    <p class="card-author" style="display:none;">itsrenoria AniList IMDB Letterboxd MDBList Metacritic Popcornmeter TMDB Tomatometer Trakt Icon Packs icon-packs icons</p>
                     <button class="copy-btn" onclick="copyTypeJsonChoice('https://raw.githubusercontent.com/itsrenoria/fusion-starter-kit/refs/heads/main/json/icon-packs/icon-packs-itsrenoria.json', 'icon-packs', this)">
+                        <span class="btn-icon">
+                            <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor"
+                                stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                                <rect x="9" y="9" width="13" height="13" rx="2" ry="2"></rect>
+                                <path d="M5 15H4a2 2 0 0 1-2-2V4a2 2 0 0 1 2-2h9a2 2 0 0 1 2 2v1"></path>
+                            </svg>
+                        </span>
+                        <span class="btn-text">Copy JSON URL</span>
+                    </button>
+                </div>
+            </div>
+
+            <div class="card card-icon-pack" data-search="yodaluca23 imdb (im) imdb alt (im) rotten tomatoes tomatometer (rt) metacritic (mc) letterboxd (lb) rotten tomatoes popcornmeter (pc) tmdb (tm) tmdb alt (tm) trakt (tr) anilist (an) myanimelist (ml) rogerebert (re) icon packs icon-packs icons">
+                <div class="card-header-top">
+                    <h3 class="card-title">yodaluca23</h3>
+                    <span class="badge">Icon Packs</span>
+                </div>
+                <div class="card-preview icon-pack-preview">
+                    <div class="icon-grid">
+                        <div class="icon-cell">
+                            <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/6/69/IMDB_Logo_2016.svg/960px-IMDB_Logo_2016.svg.png" alt="IMDb (IM)" loading="lazy" />
+                        </div>
+                        <div class="icon-cell">
+                            <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/5/53/IMDB_-_SuperTinyIcons.svg/250px-IMDB_-_SuperTinyIcons.svg.png" alt="IMDb Alt (IM)" loading="lazy" />
+                        </div>
+                        <div class="icon-cell">
+                            <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/5/5b/Rotten_Tomatoes.svg/250px-Rotten_Tomatoes.svg.png" alt="Rotten Tomatoes Tomatometer (RT)" loading="lazy" />
+                        </div>
+                        <div class="icon-cell">
+                            <img src="https://upload.wikimedia.org/wikipedia/commons/f/f2/Metacritic_M.png" alt="Metacritic (MC)" loading="lazy" />
+                        </div>
+                        <div class="icon-cell">
+                            <img src="https://a.ltrbxd.com/logos/letterboxd-decal-dots-pos-rgb-500px.png" alt="Letterboxd (LB)" loading="lazy" />
+                        </div>
+                        <div class="icon-cell">
+                            <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/d/da/Rotten_Tomatoes_positive_audience.svg/250px-Rotten_Tomatoes_positive_audience.svg.png" alt="Rotten Tomatoes Popcornmeter (PC)" loading="lazy" />
+                        </div>
+                        <div class="icon-cell">
+                            <img src="https://raw.githubusercontent.com/yodaluca23/fusion-icon-packs/refs/heads/main/icons/TMDb.png" alt="TMDb (TM)" loading="lazy" />
+                        </div>
+                        <div class="icon-cell">
+                            <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/8/89/Tmdb.new.logo.svg/330px-Tmdb.new.logo.svg.png" alt="TMDb Alt (TM)" loading="lazy" />
+                        </div>
+                        <div class="icon-cell">
+                            <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/3/3d/Trakt.tv-favicon.svg/250px-Trakt.tv-favicon.svg.png" alt="Trakt (TR)" loading="lazy" />
+                        </div>
+                        <div class="icon-cell">
+                            <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/6/61/AniList_logo.svg/250px-AniList_logo.svg.png" alt="Anilist (AN)" loading="lazy" />
+                        </div>
+                        <div class="icon-cell">
+                            <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/9/9b/MyAnimeList_favicon.svg/250px-MyAnimeList_favicon.svg.png" alt="MyAnimeList (ML)" loading="lazy" />
+                        </div>
+                        <div class="icon-cell">
+                            <img src="https://raw.githubusercontent.com/Druidblack/jellyfin_ratings/refs/heads/main/logo/Roger_Ebert.png" alt="RogerEbert (RE)" loading="lazy" />
+                        </div>
+                    </div>
+                </div>
+                <div class="card-content">
+                    <p class="generic-description">12 icons</p>
+                    <p class="card-author" style="display:none;">yodaluca23 IMDb (IM) IMDb Alt (IM) Rotten Tomatoes Tomatometer (RT) Metacritic (MC) Letterboxd (LB) Rotten Tomatoes Popcornmeter (PC) TMDb (TM) TMDb Alt (TM) Trakt (TR) Anilist (AN) MyAnimeList (ML) RogerEbert (RE) Icon Packs icon-packs icons</p>
+                    <button class="copy-btn" onclick="copyTypeJsonChoice('https://raw.githubusercontent.com/itsrenoria/fusion-starter-kit/refs/heads/main/json/icon-packs/icon-packs-yodaluca23.json', 'icon-packs', this)">
                         <span class="btn-icon">
                             <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor"
                                 stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
@@ -1664,6 +1892,23 @@
         </div>
     </div>
 
+    <div class="manual-copy-overlay" id="manualCopyOverlay" aria-hidden="true">
+        <div class="manual-copy-sheet" role="dialog" aria-modal="true" aria-labelledby="manualCopyTitle">
+            <div class="manual-copy-header">
+                <h3 class="manual-copy-title" id="manualCopyTitle">Manual copy required</h3>
+                <p class="manual-copy-subtitle" id="manualCopySubtitle">Clipboard access was blocked. Tap Select all, then copy.</p>
+            </div>
+            <div class="manual-copy-content">
+                <textarea class="manual-copy-text" id="manualCopyText" readonly spellcheck="false"></textarea>
+            </div>
+            <div class="manual-copy-actions">
+                <button class="manual-copy-select" id="manualCopySelectBtn" type="button">Select all</button>
+                <button class="manual-copy-copy" id="manualCopyCopyBtn" type="button">Copy</button>
+                <button class="choice-cancel manual-copy-close" id="manualCopyCloseBtn" type="button">Done</button>
+            </div>
+        </div>
+    </div>
+
     <footer>
         <p>Created with 🤍 for 2usion</p>
     </footer>
@@ -1672,6 +1917,7 @@
         const WIDGET_BUILDER_SOURCES = [{"id": "widgets-awards-poster-mousa.a.json", "title": "Awards", "author": "mousa.a", "shape": "poster", "variant": "", "url": "https://raw.githubusercontent.com/itsrenoria/fusion-starter-kit/refs/heads/main/json/widgets/widgets-awards-poster-mousa.a.json", "search": "awards mousa.a poster  widgets-awards-poster-mousa.a.json widgets"}, {"id": "widgets-decades-poster-mousa.a.json", "title": "Decades", "author": "mousa.a", "shape": "poster", "variant": "", "url": "https://raw.githubusercontent.com/itsrenoria/fusion-starter-kit/refs/heads/main/json/widgets/widgets-decades-poster-mousa.a.json", "search": "decades mousa.a poster  widgets-decades-poster-mousa.a.json widgets"}, {"id": "widgets-decades-square-orangebyte.json", "title": "Decades", "author": "orangebyte", "shape": "square", "variant": "", "url": "https://raw.githubusercontent.com/itsrenoria/fusion-starter-kit/refs/heads/main/json/widgets/widgets-decades-square-orangebyte.json", "search": "decades orangebyte square  widgets-decades-square-orangebyte.json widgets"}, {"id": "widgets-decades-wide-mousa.a.json", "title": "Decades", "author": "mousa.a", "shape": "wide", "variant": "", "url": "https://raw.githubusercontent.com/itsrenoria/fusion-starter-kit/refs/heads/main/json/widgets/widgets-decades-wide-mousa.a.json", "search": "decades mousa.a wide  widgets-decades-wide-mousa.a.json widgets"}, {"id": "widgets-decades-wide-rdnoni.json", "title": "Decades", "author": "rdnoni", "shape": "wide", "variant": "", "url": "https://raw.githubusercontent.com/itsrenoria/fusion-starter-kit/refs/heads/main/json/widgets/widgets-decades-wide-rdnoni.json", "search": "decades rdnoni wide  widgets-decades-wide-rdnoni.json widgets"}, {"id": "widgets-directors-wide-fexm92.json", "title": "Directors", "author": "fexm92", "shape": "wide", "variant": "", "url": "https://raw.githubusercontent.com/itsrenoria/fusion-starter-kit/refs/heads/main/json/widgets/widgets-directors-wide-fexm92.json", "search": "directors fexm92 wide  widgets-directors-wide-fexm92.json widgets"}, {"id": "widgets-genres-poster-dangeruex23.json", "title": "Genres", "author": "dangeruex23", "shape": "poster", "variant": "", "url": "https://raw.githubusercontent.com/itsrenoria/fusion-starter-kit/refs/heads/main/json/widgets/widgets-genres-poster-dangeruex23.json", "search": "genres dangeruex23 poster  widgets-genres-poster-dangeruex23.json widgets"}, {"id": "widgets-genres-poster-mousa.a.json", "title": "Genres", "author": "mousa.a", "shape": "poster", "variant": "", "url": "https://raw.githubusercontent.com/itsrenoria/fusion-starter-kit/refs/heads/main/json/widgets/widgets-genres-poster-mousa.a.json", "search": "genres mousa.a poster  widgets-genres-poster-mousa.a.json widgets"}, {"id": "widgets-genres-square-orangebyte.json", "title": "Genres", "author": "orangebyte", "shape": "square", "variant": "", "url": "https://raw.githubusercontent.com/itsrenoria/fusion-starter-kit/refs/heads/main/json/widgets/widgets-genres-square-orangebyte.json", "search": "genres orangebyte square  widgets-genres-square-orangebyte.json widgets"}, {"id": "widgets-genres-wide-dannyrutledge.json", "title": "Genres", "author": "dannyrutledge", "shape": "wide", "variant": "", "url": "https://raw.githubusercontent.com/itsrenoria/fusion-starter-kit/refs/heads/main/json/widgets/widgets-genres-wide-dannyrutledge.json", "search": "genres dannyrutledge wide  widgets-genres-wide-dannyrutledge.json widgets"}, {"id": "widgets-genres-wide-mousa.a.json", "title": "Genres", "author": "mousa.a", "shape": "wide", "variant": "", "url": "https://raw.githubusercontent.com/itsrenoria/fusion-starter-kit/refs/heads/main/json/widgets/widgets-genres-wide-mousa.a.json", "search": "genres mousa.a wide  widgets-genres-wide-mousa.a.json widgets"}, {"id": "widgets-streaming-square-orangebyte-color.json", "title": "Streaming (Color)", "author": "orangebyte", "shape": "square", "variant": "color", "url": "https://raw.githubusercontent.com/itsrenoria/fusion-starter-kit/refs/heads/main/json/widgets/widgets-streaming-square-orangebyte-color.json", "search": "streaming (color) orangebyte square color widgets-streaming-square-orangebyte-color.json widgets"}, {"id": "widgets-streaming-square-orangebyte.json", "title": "Streaming (Original)", "author": "orangebyte", "shape": "square", "variant": "original", "url": "https://raw.githubusercontent.com/itsrenoria/fusion-starter-kit/refs/heads/main/json/widgets/widgets-streaming-square-orangebyte.json", "search": "streaming (original) orangebyte square original widgets-streaming-square-orangebyte.json widgets"}];
         let activeTypeFilter = 'all';
         let copyChoiceState = null;
+        let manualCopyState = { triggerBtn: null };
         let setupBuilderState = { selectedIds: new Set(), triggerBtn: null };
 
         async function writeTextToClipboard(text) {
@@ -1710,9 +1956,10 @@
         }
 
         async function copyToClipboard(text, btn) {
-            const markCopied = () => {
+            const markCopied = (label) => {
                 const originalContent = btn.innerHTML;
-                btn.innerHTML = '<span class="btn-icon"><svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><polyline points="20 6 9 17 4 12"></polyline></svg></span><span class="btn-text">Copied!</span>';
+                const textLabel = label || 'Copied!';
+                btn.innerHTML = `<span class="btn-icon"><svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><polyline points="20 6 9 17 4 12"></polyline></svg></span><span class="btn-text">${escapeHtml(textLabel)}</span>`;
                 setTimeout(() => {
                     btn.innerHTML = originalContent;
                 }, 2000);
@@ -1720,9 +1967,119 @@
 
             const copied = await writeTextToClipboard(text);
             if (!copied) {
-                window.prompt('Copy this value:', text);
+                openManualCopyDialog(text, btn, 'Clipboard access was blocked. Tap Select all, then copy.');
+                markCopied('Manual copy');
+                return;
             }
-            markCopied();
+            markCopied('Copied!');
+        }
+
+        function selectManualCopyText() {
+            const textField = document.getElementById('manualCopyText');
+            if (!textField) {
+                return;
+            }
+            textField.focus({ preventScroll: true });
+            textField.select();
+            textField.setSelectionRange(0, textField.value.length);
+        }
+
+        function setManualCopySubtitle(text) {
+            const subtitleEl = document.getElementById('manualCopySubtitle');
+            if (!subtitleEl) {
+                return;
+            }
+            subtitleEl.textContent = text || 'Clipboard access was blocked. Tap Select all, then copy.';
+        }
+
+        async function copyFromManualDialog() {
+            const textField = document.getElementById('manualCopyText');
+            if (!textField) {
+                return;
+            }
+
+            const copied = await writeTextToClipboard(textField.value);
+            if (copied) {
+                setManualCopySubtitle('Copied to clipboard.');
+                closeManualCopyDialog();
+                return;
+            }
+
+            setManualCopySubtitle('Copy is blocked on this device. Use Select all, then copy manually.');
+            selectManualCopyText();
+        }
+
+        function openManualCopyDialog(text, triggerBtn, subtitle) {
+            const overlay = document.getElementById('manualCopyOverlay');
+            const textField = document.getElementById('manualCopyText');
+
+            if (!overlay || !textField) {
+                window.prompt('Copy this value:', text);
+                return;
+            }
+
+            manualCopyState.triggerBtn = triggerBtn || null;
+            textField.value = (typeof text === 'string') ? text : String(text);
+            setManualCopySubtitle(subtitle || 'Clipboard access was blocked. Tap Select all, then copy.');
+
+            overlay.classList.add('active');
+            overlay.setAttribute('aria-hidden', 'false');
+            window.setTimeout(() => {
+                selectManualCopyText();
+            }, 40);
+        }
+
+        function closeManualCopyDialog() {
+            const overlay = document.getElementById('manualCopyOverlay');
+            if (!overlay) {
+                manualCopyState.triggerBtn = null;
+                return;
+            }
+
+            overlay.classList.remove('active');
+            overlay.setAttribute('aria-hidden', 'true');
+            setManualCopySubtitle('Clipboard access was blocked. Tap Select all, then copy.');
+
+            const triggerBtn = manualCopyState.triggerBtn;
+            manualCopyState.triggerBtn = null;
+            if (triggerBtn) {
+                triggerBtn.focus({ preventScroll: true });
+            }
+        }
+
+        function initManualCopyDialog() {
+            const overlay = document.getElementById('manualCopyOverlay');
+            const selectBtn = document.getElementById('manualCopySelectBtn');
+            const copyBtn = document.getElementById('manualCopyCopyBtn');
+            const closeBtn = document.getElementById('manualCopyCloseBtn');
+
+            if (!overlay || !selectBtn || !copyBtn || !closeBtn) {
+                return;
+            }
+
+            overlay.addEventListener('click', (event) => {
+                if (event.target === overlay) {
+                    closeManualCopyDialog();
+                }
+            });
+
+            selectBtn.addEventListener('click', () => {
+                selectManualCopyText();
+            });
+
+            copyBtn.addEventListener('click', () => {
+                copyFromManualDialog();
+            });
+
+            closeBtn.addEventListener('click', () => {
+                closeManualCopyDialog();
+            });
+
+            document.addEventListener('keydown', (event) => {
+                if (event.key === 'Escape' && overlay.classList.contains('active')) {
+                    closeManualCopyDialog();
+                }
+            });
         }
 
         function resolveSetupPreviewSources() {
@@ -2264,10 +2621,10 @@
                 const outputText = JSON.stringify(output, null, 2);
                 const copied = await writeTextToClipboard(outputText);
                 if (!copied) {
-                    window.prompt('Clipboard access was blocked. Copy JSON manually:', outputText);
+                    openManualCopyDialog(outputText, elements.copyBtn, 'Clipboard access was blocked. Tap Select all, then copy.');
                 }
 
-                setBuilderCopyButtonText(copied ? 'Copied!' : 'Ready to paste');
+                setBuilderCopyButtonText(copied ? 'Copied!' : 'Manual copy');
                 setTimeout(() => {
                     setBuilderCopyButtonText(originalLabel);
                     updateBuilderSelectionCount();
@@ -2407,6 +2764,7 @@
         }
 
         initCopyChoiceDialog();
+        initManualCopyDialog();
         initSetupBuilder();
         resolveSetupPreviewSources();
         initTypeFilterFromUrl();

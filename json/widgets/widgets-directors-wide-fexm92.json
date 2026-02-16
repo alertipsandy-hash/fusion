@@ -9,70 +9,70 @@
           "items": [
             {
               "hideTitle": true,
-              "id": "D878AC2D-365E-40A7-AC37-80D8AF4A191A",
+              "id": "07B16E1A-9733-4743-A79C-83B528E4DF3C",
               "imageAspect": "wide",
               "imageURL": "https://raw.githubusercontent.com/itsrenoria/fusion-starter-kit/refs/heads/main/resources/widgets/directors/wide/fexm92/anderson-wide.png",
               "title": "Anderson"
             },
             {
               "hideTitle": true,
-              "id": "DB44F257-AF21-48D0-BD40-35F3E08F2730",
+              "id": "AC7F02AE-8741-4B3E-A39F-F40D5331722F",
               "imageAspect": "wide",
               "imageURL": "https://raw.githubusercontent.com/itsrenoria/fusion-starter-kit/refs/heads/main/resources/widgets/directors/wide/fexm92/carpenter-wide.png",
               "title": "Carpenter"
             },
             {
               "hideTitle": true,
-              "id": "73C8B34E-4D26-498A-ABF6-D32481F04499",
+              "id": "83AADEC3-2EE5-4611-B85E-18B3BFEC3E73",
               "imageAspect": "wide",
               "imageURL": "https://raw.githubusercontent.com/itsrenoria/fusion-starter-kit/refs/heads/main/resources/widgets/directors/wide/fexm92/depalma-wide.png",
               "title": "Depalma"
             },
             {
               "hideTitle": true,
-              "id": "9B9404DB-B3C2-412F-A328-11C205368F72",
+              "id": "7E22EC53-3F0E-4847-914E-BB7EFBF4A890",
               "imageAspect": "wide",
               "imageURL": "https://raw.githubusercontent.com/itsrenoria/fusion-starter-kit/refs/heads/main/resources/widgets/directors/wide/fexm92/fincher-wide.png",
               "title": "Fincher"
             },
             {
               "hideTitle": true,
-              "id": "8537A70C-1A9C-4D9A-BCC4-ACF97D17F41A",
+              "id": "CF0B9F63-E218-4D14-87EE-BD34E038E46A",
               "imageAspect": "wide",
               "imageURL": "https://raw.githubusercontent.com/itsrenoria/fusion-starter-kit/refs/heads/main/resources/widgets/directors/wide/fexm92/hitchcock-wide.png",
               "title": "Hitchcock"
             },
             {
               "hideTitle": true,
-              "id": "56DE5EEE-AEB6-47B5-B1E7-F73745EAD84C",
+              "id": "1C7D1BA0-6C6C-464F-9910-4657968FE55B",
               "imageAspect": "wide",
               "imageURL": "https://raw.githubusercontent.com/itsrenoria/fusion-starter-kit/refs/heads/main/resources/widgets/directors/wide/fexm92/kubrick-wide.png",
               "title": "Kubrick"
             },
             {
               "hideTitle": true,
-              "id": "53AF2FF5-EB4F-4F39-87CB-71E361C414FD",
+              "id": "4A7D8CD3-3743-4E10-A018-B258F3E7604F",
               "imageAspect": "wide",
               "imageURL": "https://raw.githubusercontent.com/itsrenoria/fusion-starter-kit/refs/heads/main/resources/widgets/directors/wide/fexm92/nolan-wide.png",
               "title": "Nolan"
             },
             {
               "hideTitle": true,
-              "id": "9D941039-859A-4865-9FF5-A6CAC55F69B4",
+              "id": "F1DA0A73-B949-45FE-950C-0CC83E17CBC1",
               "imageAspect": "wide",
               "imageURL": "https://raw.githubusercontent.com/itsrenoria/fusion-starter-kit/refs/heads/main/resources/widgets/directors/wide/fexm92/scorsese-wide.png",
               "title": "Scorsese"
             },
             {
               "hideTitle": true,
-              "id": "58C68645-E11A-4DF5-8667-C627B4881B9C",
+              "id": "9DF126F6-F9F9-4363-9926-4EE72DD77040",
               "imageAspect": "wide",
               "imageURL": "https://raw.githubusercontent.com/itsrenoria/fusion-starter-kit/refs/heads/main/resources/widgets/directors/wide/fexm92/spielberg-wide.png",
               "title": "Spielberg"
             },
             {
               "hideTitle": true,
-              "id": "53B6F0D8-20FB-4B86-880E-529D1001FCC3",
+              "id": "414A2A62-DF0C-4B7E-910E-DB2F87A1E9D3",
               "imageAspect": "wide",
               "imageURL": "https://raw.githubusercontent.com/itsrenoria/fusion-starter-kit/refs/heads/main/resources/widgets/directors/wide/fexm92/villeneuve-wide.png",
               "title": "Villeneuve"
@@ -80,7 +80,7 @@
           ]
         }
       },
-      "id": "collection.D04A790F-C4CF-46CD-AC13-BE2AF51E231D",
+      "id": "collection.D3970BED-E9FB-4E7F-9B21-4809D88D6B7C",
       "title": "Directors",
       "type": "collection.row"
     }

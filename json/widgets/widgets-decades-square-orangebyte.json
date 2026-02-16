@@ -9,70 +9,70 @@
           "items": [
             {
               "hideTitle": true,
-              "id": "FE8EF706-8F25-4249-9779-E119124CB359",
+              "id": "E0C59E99-274A-4837-9327-B56E9C93CEF9",
               "imageAspect": "square",
               "imageURL": "https://raw.githubusercontent.com/itsrenoria/fusion-starter-kit/refs/heads/main/resources/widgets/decades/square/orangebyte/1930s-square.png",
               "title": "1930s"
             },
             {
               "hideTitle": true,
-              "id": "05E03789-B2AC-4F3F-8A1F-74CECB6CC7C1",
+              "id": "C59EAE68-C756-4C43-A8F0-4D97DBBA362B",
               "imageAspect": "square",
               "imageURL": "https://raw.githubusercontent.com/itsrenoria/fusion-starter-kit/refs/heads/main/resources/widgets/decades/square/orangebyte/1940s-square.png",
               "title": "1940s"
             },
             {
               "hideTitle": true,
-              "id": "B2577E95-A8C7-4B9A-9DEF-054E38EE6B9A",
+              "id": "064DED06-B527-4835-B271-4BA29090B1B4",
               "imageAspect": "square",
               "imageURL": "https://raw.githubusercontent.com/itsrenoria/fusion-starter-kit/refs/heads/main/resources/widgets/decades/square/orangebyte/1950s-square.png",
               "title": "1950s"
             },
             {
               "hideTitle": true,
-              "id": "1CD9337F-15AC-4C45-918A-C1B8DAA29D2A",
+              "id": "FB0FBB72-9EE3-4CDD-9261-1AC0C2524541",
               "imageAspect": "square",
               "imageURL": "https://raw.githubusercontent.com/itsrenoria/fusion-starter-kit/refs/heads/main/resources/widgets/decades/square/orangebyte/1960s-square.png",
               "title": "1960s"
             },
             {
               "hideTitle": true,
-              "id": "78792C2E-60B0-47FF-AF96-3B711F27C875",
+              "id": "38030E63-ACCC-4353-B397-2D6351814B90",
               "imageAspect": "square",
               "imageURL": "https://raw.githubusercontent.com/itsrenoria/fusion-starter-kit/refs/heads/main/resources/widgets/decades/square/orangebyte/1970s-square.png",
               "title": "1970s"
             },
             {
               "hideTitle": true,
-              "id": "17CC6C85-D2DF-45D7-BE2D-07BE7BF15FC6",
+              "id": "A39BED4D-A0FA-4F85-B624-20534FE819DE",
               "imageAspect": "square",
               "imageURL": "https://raw.githubusercontent.com/itsrenoria/fusion-starter-kit/refs/heads/main/resources/widgets/decades/square/orangebyte/1980s-square.png",
               "title": "1980s"
             },
             {
               "hideTitle": true,
-              "id": "05DF98DC-E074-4852-9321-215CF30346C9",
+              "id": "C042735B-D25D-43C8-8390-072A64185605",
               "imageAspect": "square",
               "imageURL": "https://raw.githubusercontent.com/itsrenoria/fusion-starter-kit/refs/heads/main/resources/widgets/decades/square/orangebyte/1990s-square.png",
               "title": "1990s"
             },
             {
               "hideTitle": true,
-              "id": "546C2356-A7F0-46D6-85DD-B1C9561B7599",
+              "id": "236BC040-02EB-4AB8-96C5-6B3D42E96CA8",
               "imageAspect": "square",
               "imageURL": "https://raw.githubusercontent.com/itsrenoria/fusion-starter-kit/refs/heads/main/resources/widgets/decades/square/orangebyte/2000s-square.png",
               "title": "2000s"
             },
             {
               "hideTitle": true,
-              "id": "3D545460-4FA7-4FB8-BE9E-E972C1B8F08B",
+              "id": "3994A129-071A-4D34-86B9-7D86D2F3BAE1",
               "imageAspect": "square",
               "imageURL": "https://raw.githubusercontent.com/itsrenoria/fusion-starter-kit/refs/heads/main/resources/widgets/decades/square/orangebyte/2010s-square.png",
               "title": "2010s"
             },
             {
               "hideTitle": true,
-              "id": "56E84C7B-D42A-46C0-A488-0260012F77FE",
+              "id": "824FD261-E1BD-4075-A9CC-C124FA742DBB",
               "imageAspect": "square",
               "imageURL": "https://raw.githubusercontent.com/itsrenoria/fusion-starter-kit/refs/heads/main/resources/widgets/decades/square/orangebyte/2020s-square.png",
               "title": "2020s"
@@ -80,7 +80,7 @@
           ]
         }
       },
-      "id": "collection.99FB3B15-8685-4E6D-BDDF-D4BB3FE672E3",
+      "id": "collection.9B74775B-FE30-45B8-9694-825D1721D907",
       "title": "Decades",
       "type": "collection.row"
     }

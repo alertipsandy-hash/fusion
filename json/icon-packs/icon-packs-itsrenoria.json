@@ -1,5 +1,9 @@
 [
   {
+    "name": "AniList",
+    "url": "https://raw.githubusercontent.com/itsrenoria/fusion-starter-kit/refs/heads/main/resources/icon-packs/itsrenoria/AniList.png"
+  },
+  {
     "name": "IMDB",
     "url": "https://raw.githubusercontent.com/itsrenoria/fusion-starter-kit/refs/heads/main/resources/icon-packs/itsrenoria/IMDB.png"
   },
