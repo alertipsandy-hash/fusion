@@ -1674,7 +1674,42 @@
         let copyChoiceState = null;
         let setupBuilderState = { selectedIds: new Set(), triggerBtn: null };
 
-        function copyToClipboard(text, btn) {
+        async function writeTextToClipboard(text) {
+            const value = (typeof text === 'string') ? text : String(text);
+
+            if (navigator.clipboard && window.isSecureContext) {
+                try {
+                    await navigator.clipboard.writeText(value);
+                    return true;
+                } catch (error) {
+                    console.warn('Clipboard API write failed, falling back.', error);
+                }
+            }
+
+            try {
+                const textArea = document.createElement('textarea');
+                textArea.value = value;
+                textArea.setAttribute('readonly', '');
+                textArea.style.position = 'fixed';
+                textArea.style.top = '0';
+                textArea.style.left = '-9999px';
+                textArea.style.opacity = '0';
+                document.body.appendChild(textArea);
+                textArea.focus();
+                textArea.select();
+                textArea.setSelectionRange(0, textArea.value.length);
+
+                const copied = document.execCommand('copy');
+                document.body.removeChild(textArea);
+                return copied;
+            } catch (error) {
+                console.warn('Legacy copy fallback failed.', error);
+            }
+
+            return false;
+        }
+
+        async function copyToClipboard(text, btn) {
             const markCopied = () => {
                 const originalContent = btn.innerHTML;
                 btn.innerHTML = '<span class="btn-icon"><svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><polyline points="20 6 9 17 4 12"></polyline></svg></span><span class="btn-text">Copied!</span>';
@@ -1683,14 +1718,10 @@
                 }, 2000);
             };
 
-            if (navigator.clipboard && window.isSecureContext) {
-                navigator.clipboard.writeText(text).then(markCopied).catch(() => {
-                    window.prompt('Copy this value:', text);
-                });
-                return;
+            const copied = await writeTextToClipboard(text);
+            if (!copied) {
+                window.prompt('Copy this value:', text);
             }
-
-            window.prompt('Copy this value:', text);
             markCopied();
         }
 
@@ -2230,9 +2261,13 @@
                 };
 
                 ensureUniqueIds(output);
-                await navigator.clipboard.writeText(JSON.stringify(output, null, 2));
+                const outputText = JSON.stringify(output, null, 2);
+                const copied = await writeTextToClipboard(outputText);
+                if (!copied) {
+                    window.prompt('Clipboard access was blocked. Copy JSON manually:', outputText);
+                }
 
-                setBuilderCopyButtonText('Copied!');
+                setBuilderCopyButtonText(copied ? 'Copied!' : 'Ready to paste');
                 setTimeout(() => {
                     setBuilderCopyButtonText(originalLabel);
                     updateBuilderSelectionCount();
