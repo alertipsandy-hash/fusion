@@ -1,0 +1,1170 @@
+{
+  "exportType": "fusionWidgets",
+  "exportVersion": 1,
+  "widgets": [
+    {
+      "dataSource": {
+        "kind": "collection",
+        "payload": {
+          "items": [
+            {
+              "hideTitle": true,
+              "id": "264849E0-77D4-4EAA-90E9-63C80E876698",
+              "imageAspect": "wide",
+              "imageURL": "https://raw.githubusercontent.com/itsrenoria/fusion-starter-kit/refs/heads/main/resources/widgets/genres/wide/dannyrutledge/action-adventures-wide.png",
+              "title": "Action-adventures",
+              "dataSources": [
+                {
+                  "kind": "traktList",
+                  "payload": {
+                    "listName": "Action Adventures",
+                    "listSlug": "action-adventures",
+                    "traktId": 22032289,
+                    "username": "rizreflects"
+                  }
+                }
+              ]
+            },
+            {
+              "hideTitle": true,
+              "id": "CE293D0E-7908-4D03-B5DD-CC4742F23551",
+              "imageAspect": "wide",
+              "imageURL": "https://raw.githubusercontent.com/itsrenoria/fusion-starter-kit/refs/heads/main/resources/widgets/genres/wide/dannyrutledge/action-thrillers-wide.png",
+              "title": "Action-thrillers",
+              "dataSources": [
+                {
+                  "kind": "traktList",
+                  "payload": {
+                    "listName": "Action Thrillers",
+                    "listSlug": "action-thrillers",
+                    "traktId": 22032335,
+                    "username": "rizreflects"
+                  }
+                }
+              ]
+            },
+            {
+              "hideTitle": true,
+              "id": "C87D84D8-265A-47B6-AB18-83155614F8EC",
+              "imageAspect": "wide",
+              "imageURL": "https://raw.githubusercontent.com/itsrenoria/fusion-starter-kit/refs/heads/main/resources/widgets/genres/wide/dannyrutledge/action-wide.png",
+              "title": "Action",
+              "dataSources": [
+                {
+                  "kind": "traktList",
+                  "payload": {
+                    "listName": "Popular Action Movies",
+                    "listSlug": "popular-action-movies",
+                    "traktId": 33032919,
+                    "username": "snoak"
+                  }
+                },
+                {
+                  "kind": "traktList",
+                  "payload": {
+                    "listName": "Popular Action Shows",
+                    "listSlug": "popular-action-shows",
+                    "traktId": 33032916,
+                    "username": "snoak"
+                  }
+                }
+              ]
+            },
+            {
+              "hideTitle": true,
+              "id": "36C7B12A-6622-44BC-8E90-E8E285C9CE90",
+              "imageAspect": "wide",
+              "imageURL": "https://raw.githubusercontent.com/itsrenoria/fusion-starter-kit/refs/heads/main/resources/widgets/genres/wide/dannyrutledge/adult-animation-wide.png",
+              "title": "Adult-animation",
+              "dataSources": [
+                {
+                  "kind": "traktList",
+                  "payload": {
+                    "listName": "Adult Animation",
+                    "listSlug": "adult-animation",
+                    "traktId": 29542536,
+                    "username": "rizreflects"
+                  }
+                }
+              ]
+            },
+            {
+              "hideTitle": true,
+              "id": "433053AD-F843-4FB5-9EBC-22A4161E8AF1",
+              "imageAspect": "wide",
+              "imageURL": "https://raw.githubusercontent.com/itsrenoria/fusion-starter-kit/refs/heads/main/resources/widgets/genres/wide/dannyrutledge/adventure-wide.png",
+              "title": "Adventure",
+              "dataSources": [
+                {
+                  "kind": "traktList",
+                  "payload": {
+                    "listName": "Adventures",
+                    "listSlug": "adventures",
+                    "traktId": 22032399,
+                    "username": "rizreflects"
+                  }
+                }
+              ]
+            },
+            {
+              "hideTitle": true,
+              "id": "95AAB178-A996-462F-9139-750F6D09BB66",
+              "imageAspect": "wide",
+              "imageURL": "https://raw.githubusercontent.com/itsrenoria/fusion-starter-kit/refs/heads/main/resources/widgets/genres/wide/dannyrutledge/aliens-wide.png",
+              "title": "Aliens",
+              "dataSources": [
+                {
+                  "kind": "traktList",
+                  "payload": {
+                    "listName": "Aliens & Monsters",
+                    "listSlug": "aliens-monsters",
+                    "traktId": 22034737,
+                    "username": "rizreflects"
+                  }
+                }
+              ]
+            },
+            {
+              "hideTitle": true,
+              "id": "B75E14DC-F7EC-41DF-A996-3A5C59CE4CEA",
+              "imageAspect": "wide",
+              "imageURL": "https://raw.githubusercontent.com/itsrenoria/fusion-starter-kit/refs/heads/main/resources/widgets/genres/wide/dannyrutledge/animated-comedies-wide.png",
+              "title": "Animated-comedies",
+              "dataSources": [
+                {
+                  "kind": "traktList",
+                  "payload": {
+                    "listName": "Popular Animated Movies",
+                    "listSlug": "popular-animated-movies",
+                    "traktId": 33032925,
+                    "username": "snoak"
+                  }
+                },
+                {
+                  "kind": "traktList",
+                  "payload": {
+                    "listName": "Popular Animated Shows",
+                    "listSlug": "popular-animated-shows",
+                    "traktId": 33032922,
+                    "username": "snoak"
+                  }
+                }
+              ]
+            },
+            {
+              "hideTitle": true,
+              "id": "93703A22-820E-449A-B3AB-0C577D906F00",
+              "imageAspect": "wide",
+              "imageURL": "https://raw.githubusercontent.com/itsrenoria/fusion-starter-kit/refs/heads/main/resources/widgets/genres/wide/dannyrutledge/animation-wide.png",
+              "title": "Animation",
+              "dataSources": [
+                {
+                  "kind": "traktList",
+                  "payload": {
+                    "listName": "Popular Animated Movies",
+                    "listSlug": "popular-animated-movies",
+                    "traktId": 33032925,
+                    "username": "snoak"
+                  }
+                },
+                {
+                  "kind": "traktList",
+                  "payload": {
+                    "listName": "Popular Animated Shows",
+                    "listSlug": "popular-animated-shows",
+                    "traktId": 33032922,
+                    "username": "snoak"
+                  }
+                }
+              ]
+            },
+            {
+              "hideTitle": true,
+              "id": "ED10AC79-C5F8-49D3-AC31-A851B013AF9F",
+              "imageAspect": "wide",
+              "imageURL": "https://raw.githubusercontent.com/itsrenoria/fusion-starter-kit/refs/heads/main/resources/widgets/genres/wide/dannyrutledge/anime-wide.png",
+              "title": "Anime",
+              "dataSources": [
+                {
+                  "kind": "traktList",
+                  "payload": {
+                    "listName": "Popular Animation/Anime Movies",
+                    "listSlug": "popular-animation-anime-movies",
+                    "traktId": 33032928,
+                    "username": "snoak"
+                  }
+                },
+                {
+                  "kind": "traktList",
+                  "payload": {
+                    "listName": "Popular Animation/Anime Shows",
+                    "listSlug": "popular-animation-anime-shows",
+                    "traktId": 33032927,
+                    "username": "snoak"
+                  }
+                }
+              ]
+            },
+            {
+              "hideTitle": true,
+              "id": "F522D95C-9F1D-483B-9990-FF400E5F0AFA",
+              "imageAspect": "wide",
+              "imageURL": "https://raw.githubusercontent.com/itsrenoria/fusion-starter-kit/refs/heads/main/resources/widgets/genres/wide/dannyrutledge/arthouse-animation-wide.png",
+              "title": "Arthouse-animation",
+              "dataSources": [
+                {
+                  "kind": "traktList",
+                  "payload": {
+                    "listName": "Stop Motion Animation",
+                    "listSlug": "stop-motion-animation",
+                    "traktId": 29542698,
+                    "username": "rizreflects"
+                  }
+                }
+              ]
+            },
+            {
+              "hideTitle": true,
+              "id": "969A8692-9BFA-4ABA-B7D9-E32CD497BE3C",
+              "imageAspect": "wide",
+              "imageURL": "https://raw.githubusercontent.com/itsrenoria/fusion-starter-kit/refs/heads/main/resources/widgets/genres/wide/dannyrutledge/classics-wide.png",
+              "title": "Classics",
+              "dataSources": [
+                {
+                  "kind": "traktList",
+                  "payload": {
+                    "listName": "Cult Classics",
+                    "listSlug": "cult-classics",
+                    "traktId": 22037939,
+                    "username": "rizreflects"
+                  }
+                }
+              ]
+            },
+            {
+              "hideTitle": true,
+              "id": "FDB562EA-FFF6-474C-8525-4BDAADEFAFDB",
+              "imageAspect": "wide",
+              "imageURL": "https://raw.githubusercontent.com/itsrenoria/fusion-starter-kit/refs/heads/main/resources/widgets/genres/wide/dannyrutledge/comedy-wide.png",
+              "title": "Comedy",
+              "dataSources": [
+                {
+                  "kind": "traktList",
+                  "payload": {
+                    "listName": "Popular Comedy Movies",
+                    "listSlug": "popular-comedy-movies",
+                    "traktId": 33032930,
+                    "username": "snoak"
+                  }
+                },
+                {
+                  "kind": "traktList",
+                  "payload": {
+                    "listName": "Popular Comedy Shows",
+                    "listSlug": "popular-comedy-shows",
+                    "traktId": 33032929,
+                    "username": "snoak"
+                  }
+                }
+              ]
+            },
+            {
+              "hideTitle": true,
+              "id": "1D1F1C21-9BA5-4FD6-940A-02C5A6BB2185",
+              "imageAspect": "wide",
+              "imageURL": "https://raw.githubusercontent.com/itsrenoria/fusion-starter-kit/refs/heads/main/resources/widgets/genres/wide/dannyrutledge/creature-features-wide.png",
+              "title": "Creature-features",
+              "dataSources": [
+                {
+                  "kind": "traktList",
+                  "payload": {
+                    "listName": "Occult Horrors",
+                    "listSlug": "occult-horrors",
+                    "traktId": 25294423,
+                    "username": "rizreflects"
+                  }
+                }
+              ]
+            },
+            {
+              "hideTitle": true,
+              "id": "B0836B63-09E0-4381-848C-8F5EC6DAE5DB",
+              "imageAspect": "wide",
+              "imageURL": "https://raw.githubusercontent.com/itsrenoria/fusion-starter-kit/refs/heads/main/resources/widgets/genres/wide/dannyrutledge/crime-wide.png",
+              "title": "Crime",
+              "dataSources": [
+                {
+                  "kind": "traktList",
+                  "payload": {
+                    "listName": "Crime",
+                    "listSlug": "crime",
+                    "traktId": 20770341,
+                    "username": "garycrawfordgc"
+                  }
+                },
+                {
+                  "kind": "traktList",
+                  "payload": {
+                    "listName": "Crime Shows",
+                    "listSlug": "crime-shows",
+                    "traktId": 20772104,
+                    "username": "garycrawfordgc"
+                  }
+                }
+              ]
+            },
+            {
+              "hideTitle": true,
+              "id": "44CF81CB-FA05-463C-9F45-FA802FC8CD9E",
+              "imageAspect": "wide",
+              "imageURL": "https://raw.githubusercontent.com/itsrenoria/fusion-starter-kit/refs/heads/main/resources/widgets/genres/wide/dannyrutledge/dark-fantasy-wide.png",
+              "title": "Dark-fantasy",
+              "dataSources": [
+                {
+                  "kind": "traktList",
+                  "payload": {
+                    "listName": "Dark Fantasy Movies",
+                    "listSlug": "dark-fantasy-movies",
+                    "traktId": 25292649,
+                    "username": "rizreflects"
+                  }
+                }
+              ]
+            },
+            {
+              "hideTitle": true,
+              "id": "05217B7F-D3B1-407B-AA6D-9F91FD78CEE1",
+              "imageAspect": "wide",
+              "imageURL": "https://raw.githubusercontent.com/itsrenoria/fusion-starter-kit/refs/heads/main/resources/widgets/genres/wide/dannyrutledge/disaster-epics-wide.png",
+              "title": "Disaster-epics",
+              "dataSources": [
+                {
+                  "kind": "traktList",
+                  "payload": {
+                    "listName": "Disaster Movies",
+                    "listSlug": "disaster-movies",
+                    "traktId": 29003154,
+                    "username": "rizreflects"
+                  }
+                }
+              ]
+            },
+            {
+              "hideTitle": true,
+              "id": "9BACF09C-1D32-4E77-B08E-FEDED319FC86",
+              "imageAspect": "wide",
+              "imageURL": "https://raw.githubusercontent.com/itsrenoria/fusion-starter-kit/refs/heads/main/resources/widgets/genres/wide/dannyrutledge/documentary-wide.png",
+              "title": "Documentary",
+              "dataSources": [
+                {
+                  "kind": "traktList",
+                  "payload": {
+                    "listName": "Popular Documentary Movies",
+                    "listSlug": "popular-documentary-movies",
+                    "traktId": 33123349,
+                    "username": "snoak"
+                  }
+                },
+                {
+                  "kind": "traktList",
+                  "payload": {
+                    "listName": "Popular Documentary Shows",
+                    "listSlug": "popular-documentary-shows",
+                    "traktId": 33123359,
+                    "username": "snoak"
+                  }
+                }
+              ]
+            },
+            {
+              "hideTitle": true,
+              "id": "35662AA0-F373-402B-9BCE-8DB40A4B44A3",
+              "imageAspect": "wide",
+              "imageURL": "https://raw.githubusercontent.com/itsrenoria/fusion-starter-kit/refs/heads/main/resources/widgets/genres/wide/dannyrutledge/drama-wide.png",
+              "title": "Drama",
+              "dataSources": [
+                {
+                  "kind": "traktList",
+                  "payload": {
+                    "listName": "Popular Drama Movies",
+                    "listSlug": "popular-drama-movies",
+                    "traktId": 33032935,
+                    "username": "snoak"
+                  }
+                },
+                {
+                  "kind": "traktList",
+                  "payload": {
+                    "listName": "Popular Drama Shows",
+                    "listSlug": "popular-drama-shows",
+                    "traktId": 33032934,
+                    "username": "snoak"
+                  }
+                }
+              ]
+            },
+            {
+              "hideTitle": true,
+              "id": "4E86A6D9-0590-442A-9EC2-68063C36BF3C",
+              "imageAspect": "wide",
+              "imageURL": "https://raw.githubusercontent.com/itsrenoria/fusion-starter-kit/refs/heads/main/resources/widgets/genres/wide/dannyrutledge/dystopian-futures-wide.png",
+              "title": "Dystopian-futures",
+              "dataSources": [
+                {
+                  "kind": "traktList",
+                  "payload": {
+                    "listName": "Dystopian Future",
+                    "listSlug": "dystopian-future",
+                    "traktId": 29006737,
+                    "username": "rizreflects"
+                  }
+                }
+              ]
+            },
+            {
+              "hideTitle": true,
+              "id": "AC0B066F-717F-439D-8E05-E751AE8552C6",
+              "imageAspect": "wide",
+              "imageURL": "https://raw.githubusercontent.com/itsrenoria/fusion-starter-kit/refs/heads/main/resources/widgets/genres/wide/dannyrutledge/family-movie-night-wide.png",
+              "title": "Family-movie-night",
+              "dataSources": [
+                {
+                  "kind": "traktList",
+                  "payload": {
+                    "listName": "Family Movies",
+                    "listSlug": "family-movies",
+                    "traktId": 22032854,
+                    "username": "rizreflects"
+                  }
+                }
+              ]
+            },
+            {
+              "hideTitle": true,
+              "id": "046A3D99-B270-4522-8E2D-9A172F9A368A",
+              "imageAspect": "wide",
+              "imageURL": "https://raw.githubusercontent.com/itsrenoria/fusion-starter-kit/refs/heads/main/resources/widgets/genres/wide/dannyrutledge/fantasy-adventures-wide.png",
+              "title": "Fantasy-adventures",
+              "dataSources": [
+                {
+                  "kind": "traktList",
+                  "payload": {
+                    "listName": "Action Fantasy",
+                    "listSlug": "action-fantasy",
+                    "traktId": 22033076,
+                    "username": "rizreflects"
+                  }
+                }
+              ]
+            },
+            {
+              "hideTitle": true,
+              "id": "9E17E250-DCE0-43A9-9790-1CD7EDBCCB52",
+              "imageAspect": "wide",
+              "imageURL": "https://raw.githubusercontent.com/itsrenoria/fusion-starter-kit/refs/heads/main/resources/widgets/genres/wide/dannyrutledge/fantasy-wide.png",
+              "title": "Fantasy",
+              "dataSources": [
+                {
+                  "kind": "traktList",
+                  "payload": {
+                    "listName": "Fantasy Movies",
+                    "listSlug": "fantasy-movies",
+                    "traktId": 22033383,
+                    "username": "rizreflects"
+                  }
+                }
+              ]
+            },
+            {
+              "hideTitle": true,
+              "id": "5EE724A9-2D09-4E50-9456-3621BEBFDF85",
+              "imageAspect": "wide",
+              "imageURL": "https://raw.githubusercontent.com/itsrenoria/fusion-starter-kit/refs/heads/main/resources/widgets/genres/wide/dannyrutledge/favorite-cartoons-wide.png",
+              "title": "Favorite-cartoons",
+              "dataSources": [
+                {
+                  "kind": "traktList",
+                  "payload": {
+                    "listName": "Hand-drawn Animation",
+                    "listSlug": "hand-drawn-animation",
+                    "traktId": 29542636,
+                    "username": "rizreflects"
+                  }
+                }
+              ]
+            },
+            {
+              "hideTitle": true,
+              "id": "DB8B3BD7-472E-4193-A98D-D5F64CC4CFFE",
+              "imageAspect": "wide",
+              "imageURL": "https://raw.githubusercontent.com/itsrenoria/fusion-starter-kit/refs/heads/main/resources/widgets/genres/wide/dannyrutledge/frontier-grit-wide.png",
+              "title": "Frontier-grit",
+              "dataSources": [
+                {
+                  "kind": "traktList",
+                  "payload": {
+                    "listName": "Neo-Western",
+                    "listSlug": "neo-western",
+                    "traktId": 30751117,
+                    "username": "MadMapper"
+                  }
+                }
+              ]
+            },
+            {
+              "hideTitle": true,
+              "id": "B120B8D3-06D0-4385-9B1C-9C2621A142A9",
+              "imageAspect": "wide",
+              "imageURL": "https://raw.githubusercontent.com/itsrenoria/fusion-starter-kit/refs/heads/main/resources/widgets/genres/wide/dannyrutledge/high-seas-heroics-wide.png",
+              "title": "High-seas-heroics",
+              "dataSources": [
+                {
+                  "kind": "traktList",
+                  "payload": {
+                    "listName": "Sea Adventures",
+                    "listSlug": "sea-adventures",
+                    "traktId": 29190890,
+                    "username": "rizreflects"
+                  }
+                }
+              ]
+            },
+            {
+              "hideTitle": true,
+              "id": "6CADBE85-9E65-464A-85E2-8363DAD1956D",
+              "imageAspect": "wide",
+              "imageURL": "https://raw.githubusercontent.com/itsrenoria/fusion-starter-kit/refs/heads/main/resources/widgets/genres/wide/dannyrutledge/historical-blockbusters-wide.png",
+              "title": "Historical-blockbusters",
+              "dataSources": [
+                {
+                  "kind": "traktList",
+                  "payload": {
+                    "listName": "Directory of World Cinema: American Hollywood",
+                    "listSlug": "directory-of-world-cinema-american-hollywood",
+                    "traktId": 801510,
+                    "username": "sp1ti"
+                  }
+                }
+              ]
+            },
+            {
+              "hideTitle": true,
+              "id": "7307EF59-6A80-4E03-AFDD-80D34D1977A2",
+              "imageAspect": "wide",
+              "imageURL": "https://raw.githubusercontent.com/itsrenoria/fusion-starter-kit/refs/heads/main/resources/widgets/genres/wide/dannyrutledge/horror-wide.png",
+              "title": "Horror",
+              "dataSources": [
+                {
+                  "kind": "traktList",
+                  "payload": {
+                    "listName": "Popular Horror Movies",
+                    "listSlug": "popular-horror-movies",
+                    "traktId": 33032936,
+                    "username": "snoak"
+                  }
+                },
+                {
+                  "kind": "traktList",
+                  "payload": {
+                    "listName": "Popular Horror Shows",
+                    "listSlug": "popular-horror-shows",
+                    "traktId": 33032939,
+                    "username": "snoak"
+                  }
+                }
+              ]
+            },
+            {
+              "hideTitle": true,
+              "id": "D23DDA1E-92AE-4508-9397-759228DB5828",
+              "imageAspect": "wide",
+              "imageURL": "https://raw.githubusercontent.com/itsrenoria/fusion-starter-kit/refs/heads/main/resources/widgets/genres/wide/dannyrutledge/independent-wide.png",
+              "title": "Independent",
+              "dataSources": [
+                {
+                  "kind": "traktList",
+                  "payload": {
+                    "listName": "Indie Movies",
+                    "listSlug": "indie-movies",
+                    "traktId": 32356098,
+                    "username": "pastican"
+                  }
+                }
+              ]
+            },
+            {
+              "hideTitle": true,
+              "id": "37741FB0-6C45-44FA-8C65-8CE506064C77",
+              "imageAspect": "wide",
+              "imageURL": "https://raw.githubusercontent.com/itsrenoria/fusion-starter-kit/refs/heads/main/resources/widgets/genres/wide/dannyrutledge/international-wide.png",
+              "title": "International",
+              "dataSources": [
+                {
+                  "kind": "traktList",
+                  "payload": {
+                    "listName": "Critically Acclaimed Foreign Movies",
+                    "listSlug": "critically-acclaimed-foreign-movies",
+                    "traktId": 22038460,
+                    "username": "rizreflects"
+                  }
+                }
+              ]
+            },
+            {
+              "hideTitle": true,
+              "id": "B16CE080-84F9-4476-9F94-CE7265CE12D3",
+              "imageAspect": "wide",
+              "imageURL": "https://raw.githubusercontent.com/itsrenoria/fusion-starter-kit/refs/heads/main/resources/widgets/genres/wide/dannyrutledge/kids-wide.png",
+              "title": "Kids",
+              "dataSources": [
+                {
+                  "kind": "traktList",
+                  "payload": {
+                    "listName": "Trending Kids Movies",
+                    "listSlug": "trending-kids-movies",
+                    "traktId": 33032833,
+                    "username": "snoak"
+                  }
+                },
+                {
+                  "kind": "traktList",
+                  "payload": {
+                    "listName": "Trending Kids Shows",
+                    "listSlug": "trending-kids-shows",
+                    "traktId": 30828731,
+                    "username": "tvgeniekodi"
+                  }
+                }
+              ]
+            },
+            {
+              "hideTitle": true,
+              "id": "1D7BDD27-FF75-447E-9077-BB755C21208E",
+              "imageAspect": "wide",
+              "imageURL": "https://raw.githubusercontent.com/itsrenoria/fusion-starter-kit/refs/heads/main/resources/widgets/genres/wide/dannyrutledge/learning-corner-wide.png",
+              "title": "Learning-corner",
+              "dataSources": [
+                {
+                  "kind": "traktList",
+                  "payload": {
+                    "listName": "History & Politics",
+                    "listSlug": "history-politics",
+                    "traktId": 30683818,
+                    "username": "enverkolsuzoglu"
+                  }
+                }
+              ]
+            },
+            {
+              "hideTitle": true,
+              "id": "31089EDE-83EB-487D-AEAF-1E7BA8C2FB5E",
+              "imageAspect": "wide",
+              "imageURL": "https://raw.githubusercontent.com/itsrenoria/fusion-starter-kit/refs/heads/main/resources/widgets/genres/wide/dannyrutledge/lovable-monsters-wide.png",
+              "title": "Lovable-monsters",
+              "dataSources": [
+                {
+                  "kind": "traktList",
+                  "payload": {
+                    "listName": "Animal Tales",
+                    "listSlug": "animal-tales",
+                    "traktId": 25294772,
+                    "username": "rizreflects"
+                  }
+                }
+              ]
+            },
+            {
+              "hideTitle": true,
+              "id": "54DADA4E-140D-42F9-994E-E186D31CE7A5",
+              "imageAspect": "wide",
+              "imageURL": "https://raw.githubusercontent.com/itsrenoria/fusion-starter-kit/refs/heads/main/resources/widgets/genres/wide/dannyrutledge/music-movies-wide.png",
+              "title": "Music-movies",
+              "dataSources": [
+                {
+                  "kind": "traktList",
+                  "payload": {
+                    "listName": "Music (Movies)",
+                    "listSlug": "music-movies",
+                    "traktId": 32946423,
+                    "username": "jiobiee"
+                  }
+                }
+              ]
+            },
+            {
+              "hideTitle": true,
+              "id": "0A67FFEA-62F6-4AA3-83E2-471B8663458A",
+              "imageAspect": "wide",
+              "imageURL": "https://raw.githubusercontent.com/itsrenoria/fusion-starter-kit/refs/heads/main/resources/widgets/genres/wide/dannyrutledge/music-wide.png",
+              "title": "Music",
+              "dataSources": [
+                {
+                  "kind": "traktList",
+                  "payload": {
+                    "listName": "Music",
+                    "listSlug": "music",
+                    "traktId": 33688283,
+                    "username": "Kirky62"
+                  }
+                }
+              ]
+            },
+            {
+              "hideTitle": true,
+              "id": "FC20FAA7-F01E-4234-BC9D-609478F58DC3",
+              "imageAspect": "wide",
+              "imageURL": "https://raw.githubusercontent.com/itsrenoria/fusion-starter-kit/refs/heads/main/resources/widgets/genres/wide/dannyrutledge/myths-and-legends-wide.png",
+              "title": "Myths-and-legends",
+              "dataSources": [
+                {
+                  "kind": "traktList",
+                  "payload": {
+                    "listName": "Myths and Legends",
+                    "listSlug": "myths-and-legends",
+                    "traktId": 2287019,
+                    "username": "kristaeglover"
+                  }
+                }
+              ]
+            },
+            {
+              "hideTitle": true,
+              "id": "9AE5F85F-F509-4A75-A38D-F158A8C4B1FE",
+              "imageAspect": "wide",
+              "imageURL": "https://raw.githubusercontent.com/itsrenoria/fusion-starter-kit/refs/heads/main/resources/widgets/genres/wide/dannyrutledge/nature-wide.png",
+              "title": "Nature",
+              "dataSources": [
+                {
+                  "kind": "traktList",
+                  "payload": {
+                    "listName": "Top Nature Shows",
+                    "listSlug": "top-nature-shows",
+                    "traktId": 30546891,
+                    "username": "tvgeniekodi"
+                  }
+                }
+              ]
+            },
+            {
+              "hideTitle": true,
+              "id": "300A0D08-1D7D-4A12-BCCA-DCFB2C56FB4B",
+              "imageAspect": "wide",
+              "imageURL": "https://raw.githubusercontent.com/itsrenoria/fusion-starter-kit/refs/heads/main/resources/widgets/genres/wide/dannyrutledge/psychological-terror-wide.png",
+              "title": "Psychological-terror",
+              "dataSources": [
+                {
+                  "kind": "traktList",
+                  "payload": {
+                    "listName": "Psychological Thrillers",
+                    "listSlug": "psychological-thrillers",
+                    "traktId": 21112021,
+                    "username": "rizreflects"
+                  }
+                }
+              ]
+            },
+            {
+              "hideTitle": true,
+              "id": "6B0D498F-5299-42FA-A9CF-0A5003D08EE0",
+              "imageAspect": "wide",
+              "imageURL": "https://raw.githubusercontent.com/itsrenoria/fusion-starter-kit/refs/heads/main/resources/widgets/genres/wide/dannyrutledge/reality-wide.png",
+              "title": "Reality",
+              "dataSources": [
+                {
+                  "kind": "traktList",
+                  "payload": {
+                    "listName": "Popular Reality Shows",
+                    "listSlug": "popular-reality-shows",
+                    "traktId": 33123585,
+                    "username": "snoak"
+                  }
+                }
+              ]
+            },
+            {
+              "hideTitle": true,
+              "id": "7D4ADD9B-B8E5-4B63-B6E7-312F9AD1F169",
+              "imageAspect": "wide",
+              "imageURL": "https://raw.githubusercontent.com/itsrenoria/fusion-starter-kit/refs/heads/main/resources/widgets/genres/wide/dannyrutledge/robots-and-ai-wide.png",
+              "title": "Robots-and-ai",
+              "dataSources": [
+                {
+                  "kind": "traktList",
+                  "payload": {
+                    "listName": "Artificial Intelligence",
+                    "listSlug": "artificial-intelligence",
+                    "traktId": 27251319,
+                    "username": "rizreflects"
+                  }
+                }
+              ]
+            },
+            {
+              "hideTitle": true,
+              "id": "4B8CA79A-9F83-4B82-9C8B-542A4B050ED7",
+              "imageAspect": "wide",
+              "imageURL": "https://raw.githubusercontent.com/itsrenoria/fusion-starter-kit/refs/heads/main/resources/widgets/genres/wide/dannyrutledge/romance-wide.png",
+              "title": "Romance",
+              "dataSources": [
+                {
+                  "kind": "traktList",
+                  "payload": {
+                    "listName": "Popular Romance Movies",
+                    "listSlug": "popular-romance-movies",
+                    "traktId": 33132644,
+                    "username": "snoak"
+                  }
+                },
+                {
+                  "kind": "traktList",
+                  "payload": {
+                    "listName": "Popular Romance Shows",
+                    "listSlug": "popular-romance-shows",
+                    "traktId": 33132723,
+                    "username": "snoak"
+                  }
+                }
+              ]
+            },
+            {
+              "hideTitle": true,
+              "id": "5AB76644-E4C7-4986-AA51-49B8775272E2",
+              "imageAspect": "wide",
+              "imageURL": "https://raw.githubusercontent.com/itsrenoria/fusion-starter-kit/refs/heads/main/resources/widgets/genres/wide/dannyrutledge/sci-fi-wide.png",
+              "title": "Sci-fi",
+              "dataSources": [
+                {
+                  "kind": "traktList",
+                  "payload": {
+                    "listName": "Popular Sci-Fi Movies",
+                    "listSlug": "popular-sci-fi-movies",
+                    "traktId": 33032944,
+                    "username": "snoak"
+                  }
+                },
+                {
+                  "kind": "traktList",
+                  "payload": {
+                    "listName": "Popular Sci-Fi Shows",
+                    "listSlug": "popular-sci-fi-shows",
+                    "traktId": 33032946,
+                    "username": "snoak"
+                  }
+                }
+              ]
+            },
+            {
+              "hideTitle": true,
+              "id": "D56AA82F-4371-4A9D-BCF9-73BEA0818E35",
+              "imageAspect": "wide",
+              "imageURL": "https://raw.githubusercontent.com/itsrenoria/fusion-starter-kit/refs/heads/main/resources/widgets/genres/wide/dannyrutledge/short-films-wide.png",
+              "title": "Short-films",
+              "dataSources": [
+                {
+                  "kind": "traktList",
+                  "payload": {
+                    "listName": "Short Films\u2026",
+                    "listSlug": "short-films",
+                    "traktId": 33531583,
+                    "username": "JustFrank"
+                  }
+                }
+              ]
+            },
+            {
+              "hideTitle": true,
+              "id": "715A7968-6088-4E7E-BB3B-F36508147954",
+              "imageAspect": "wide",
+              "imageURL": "https://raw.githubusercontent.com/itsrenoria/fusion-starter-kit/refs/heads/main/resources/widgets/genres/wide/dannyrutledge/space-epics-wide.png",
+              "title": "Space-epics",
+              "dataSources": [
+                {
+                  "kind": "traktList",
+                  "payload": {
+                    "listName": "Astronomy & Space",
+                    "listSlug": "astronomy-space",
+                    "traktId": 20709064,
+                    "username": "rizreflects"
+                  }
+                }
+              ]
+            },
+            {
+              "hideTitle": true,
+              "id": "8B07DAC0-8C98-4467-BF8C-ED8E4D10E67D",
+              "imageAspect": "wide",
+              "imageURL": "https://raw.githubusercontent.com/itsrenoria/fusion-starter-kit/refs/heads/main/resources/widgets/genres/wide/dannyrutledge/spies-wide.png",
+              "title": "Spies",
+              "dataSources": [
+                {
+                  "kind": "traktList",
+                  "payload": {
+                    "listName": "Spy & Espionage Movies",
+                    "listSlug": "spy-espionage-movies",
+                    "traktId": 27251299,
+                    "username": "rizreflects"
+                  }
+                }
+              ]
+            },
+            {
+              "hideTitle": true,
+              "id": "D531D8D3-5D4E-4EBF-A984-37AA0BA83A85",
+              "imageAspect": "wide",
+              "imageURL": "https://raw.githubusercontent.com/itsrenoria/fusion-starter-kit/refs/heads/main/resources/widgets/genres/wide/dannyrutledge/super-shocks-wide.png",
+              "title": "Super-shocks",
+              "dataSources": [
+                {
+                  "kind": "traktList",
+                  "payload": {
+                    "listName": "Supernatural Horrors",
+                    "listSlug": "supernatural-horrors",
+                    "traktId": 29003049,
+                    "username": "rizreflects"
+                  }
+                }
+              ]
+            },
+            {
+              "hideTitle": true,
+              "id": "4BA2E5B5-FFF8-478D-8ABC-2F0712E14878",
+              "imageAspect": "wide",
+              "imageURL": "https://raw.githubusercontent.com/itsrenoria/fusion-starter-kit/refs/heads/main/resources/widgets/genres/wide/dannyrutledge/superheroes-wide.png",
+              "title": "Superheroes",
+              "dataSources": [
+                {
+                  "kind": "traktList",
+                  "payload": {
+                    "listName": "Superhero Movies",
+                    "listSlug": "superhero-movies",
+                    "traktId": 25287616,
+                    "username": "rizreflects"
+                  }
+                }
+              ]
+            },
+            {
+              "hideTitle": true,
+              "id": "F6D30FF5-DF03-4D00-AC7F-22E04EFE4922",
+              "imageAspect": "wide",
+              "imageURL": "https://raw.githubusercontent.com/itsrenoria/fusion-starter-kit/refs/heads/main/resources/widgets/genres/wide/dannyrutledge/tearjerkers-wide.png",
+              "title": "Tearjerkers",
+              "dataSources": [
+                {
+                  "kind": "traktList",
+                  "payload": {
+                    "listName": "Melodramas",
+                    "listSlug": "melodramas",
+                    "traktId": 25294311,
+                    "username": "rizreflects"
+                  }
+                }
+              ]
+            },
+            {
+              "hideTitle": true,
+              "id": "B477878E-B05B-4D42-A98E-38E28ECD1B09",
+              "imageAspect": "wide",
+              "imageURL": "https://raw.githubusercontent.com/itsrenoria/fusion-starter-kit/refs/heads/main/resources/widgets/genres/wide/dannyrutledge/techno-thrillers-wide.png",
+              "title": "Techno-thrillers",
+              "dataSources": [
+                {
+                  "kind": "traktList",
+                  "payload": {
+                    "listName": "Recommended Techno & Cyber Thrillers (in progress)",
+                    "listSlug": "recommended-techno-cyber-thrillers-in-progress",
+                    "traktId": 33186386,
+                    "username": "acanas"
+                  }
+                }
+              ]
+            },
+            {
+              "hideTitle": true,
+              "id": "4069078D-D87C-4AF1-A9F9-021C20756F62",
+              "imageAspect": "wide",
+              "imageURL": "https://raw.githubusercontent.com/itsrenoria/fusion-starter-kit/refs/heads/main/resources/widgets/genres/wide/dannyrutledge/thriller-wide.png",
+              "title": "Thriller",
+              "dataSources": [
+                {
+                  "kind": "traktList",
+                  "payload": {
+                    "listName": "Popular Thriller Movies",
+                    "listSlug": "popular-thriller-movies",
+                    "traktId": 33032952,
+                    "username": "snoak"
+                  }
+                },
+                {
+                  "kind": "traktList",
+                  "payload": {
+                    "listName": "Popular Thriller Shows",
+                    "listSlug": "popular-thriller-shows",
+                    "traktId": 33032950,
+                    "username": "snoak"
+                  }
+                }
+              ]
+            },
+            {
+              "hideTitle": true,
+              "id": "6A5997FA-06CB-47C9-A7BB-487C6A78262A",
+              "imageAspect": "wide",
+              "imageURL": "https://raw.githubusercontent.com/itsrenoria/fusion-starter-kit/refs/heads/main/resources/widgets/genres/wide/dannyrutledge/treasure-hunts-wide.png",
+              "title": "Treasure-hunts",
+              "dataSources": [
+                {
+                  "kind": "traktList",
+                  "payload": {
+                    "listName": "Treasure Hunts",
+                    "listSlug": "treasure-hunts",
+                    "traktId": 25761060,
+                    "username": "WayneCity"
+                  }
+                }
+              ]
+            },
+            {
+              "hideTitle": true,
+              "id": "B7BD03FD-27E0-415D-B651-83EF434FF5BA",
+              "imageAspect": "wide",
+              "imageURL": "https://raw.githubusercontent.com/itsrenoria/fusion-starter-kit/refs/heads/main/resources/widgets/genres/wide/dannyrutledge/vhs-era-frightmares-wide.png",
+              "title": "Vhs-era-frightmares",
+              "dataSources": [
+                {
+                  "kind": "traktList",
+                  "payload": {
+                    "listName": "VHS Nightmares",
+                    "listSlug": "vhs-nightmares",
+                    "traktId": 33606804,
+                    "username": "MMagTech"
+                  }
+                }
+              ]
+            },
+            {
+              "hideTitle": true,
+              "id": "2A2C607A-901B-4CC7-9B09-5AF1439D618F",
+              "imageAspect": "wide",
+              "imageURL": "https://raw.githubusercontent.com/itsrenoria/fusion-starter-kit/refs/heads/main/resources/widgets/genres/wide/dannyrutledge/war-stories-wide.png",
+              "title": "War-stories",
+              "dataSources": [
+                {
+                  "kind": "traktList",
+                  "payload": {
+                    "listName": "War",
+                    "listSlug": "war",
+                    "traktId": 20770418,
+                    "username": "garycrawfordgc"
+                  }
+                },
+                {
+                  "kind": "traktList",
+                  "payload": {
+                    "listName": "Popular War Shows",
+                    "listSlug": "popular-war-shows",
+                    "traktId": 33763475,
+                    "username": "Azodath"
+                  }
+                }
+              ]
+            },
+            {
+              "hideTitle": true,
+              "id": "91F3C68F-DB7B-4085-BE9E-A0C423962B5B",
+              "imageAspect": "wide",
+              "imageURL": "https://raw.githubusercontent.com/itsrenoria/fusion-starter-kit/refs/heads/main/resources/widgets/genres/wide/dannyrutledge/westerns-wide.png",
+              "title": "Westerns",
+              "dataSources": [
+                {
+                  "kind": "traktList",
+                  "payload": {
+                    "listName": "Top Westerns",
+                    "listSlug": "top-westerns",
+                    "traktId": 30548156,
+                    "username": "tvgeniekodi"
+                  }
+                }
+              ]
+            },
+            {
+              "hideTitle": true,
+              "id": "BBFC9B3E-BBE1-49E2-9909-DD8ACA064E2E",
+              "imageAspect": "wide",
+              "imageURL": "https://raw.githubusercontent.com/itsrenoria/fusion-starter-kit/refs/heads/main/resources/widgets/genres/wide/dannyrutledge/whodunits-wide.png",
+              "title": "Whodunits",
+              "dataSources": [
+                {
+                  "kind": "traktList",
+                  "payload": {
+                    "listName": "Whodunit?",
+                    "listSlug": "whodunit",
+                    "traktId": 32607220,
+                    "username": "J-Cao"
+                  }
+                },
+                {
+                  "kind": "traktList",
+                  "payload": {
+                    "listName": "Cozy Mysteries / whodunit / Cozies / family friendly (? *) mystery movies and shows",
+                    "listSlug": "cozy-mysteries-whodunit-cozies-family-friendly-mystery-movies-and-shows",
+                    "traktId": 26925658,
+                    "username": "Midnitewolf"
+                  }
+                }
+              ]
+            },
+            {
+              "hideTitle": true,
+              "id": "AF742092-D759-439F-A4E8-3A0A3662A315",
+              "imageAspect": "wide",
+              "imageURL": "https://raw.githubusercontent.com/itsrenoria/fusion-starter-kit/refs/heads/main/resources/widgets/genres/wide/dannyrutledge/workplace-comedies-wide.png",
+              "title": "Workplace-comedies",
+              "dataSources": [
+                {
+                  "kind": "traktList",
+                  "payload": {
+                    "listName": "Top 20 Workplace Comedies",
+                    "listSlug": "top-20-workplace-comedies",
+                    "traktId": 9834543,
+                    "username": "jarvis-8243417"
+                  }
+                }
+              ]
+            },
+            {
+              "hideTitle": true,
+              "id": "0AD6D183-5DA2-4574-9672-A617A0451C31",
+              "imageAspect": "wide",
+              "imageURL": "https://raw.githubusercontent.com/itsrenoria/fusion-starter-kit/refs/heads/main/resources/widgets/genres/wide/dannyrutledge/zombie-orama-wide.png",
+              "title": "Zombie-orama",
+              "dataSources": [
+                {
+                  "kind": "traktList",
+                  "payload": {
+                    "listName": "Zombie Movies",
+                    "listSlug": "zombie-movies",
+                    "traktId": 33136385,
+                    "username": "emsishere"
+                  }
+                },
+                {
+                  "kind": "traktList",
+                  "payload": {
+                    "listName": "Zombie Shows",
+                    "listSlug": "zombie-shows",
+                    "traktId": 32149974,
+                    "username": "QCNate"
+                  }
+                }
+              ]
+            }
+          ]
+        }
+      },
+      "id": "collection.710014AC-D120-49BE-A250-3DCEF71C5797",
+      "title": "Genres",
+      "type": "collection.row"
+    }
+  ]
+}

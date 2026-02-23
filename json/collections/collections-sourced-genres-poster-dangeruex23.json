@@ -1,0 +1,704 @@
+[
+  {
+    "backgroundImageURL": "https://raw.githubusercontent.com/itsrenoria/fusion-starter-kit/refs/heads/main/resources/widgets/genres/poster/dangeruex23/action-poster.jpg",
+    "hideTitle": true,
+    "id": "DB259DBD-3B4C-4310-9247-903754943FDD",
+    "layout": "Poster",
+    "name": "Action",
+    "dataSources": [
+      {
+        "kind": "traktList",
+        "payload": {
+          "listName": "Popular Action Movies",
+          "listSlug": "popular-action-movies",
+          "traktId": 33032919,
+          "username": "snoak"
+        }
+      },
+      {
+        "kind": "traktList",
+        "payload": {
+          "listName": "Popular Action Shows",
+          "listSlug": "popular-action-shows",
+          "traktId": 33032916,
+          "username": "snoak"
+        }
+      }
+    ],
+    "dataSource": {
+      "kind": "traktList",
+      "payload": {
+        "listName": "Popular Action Movies",
+        "listSlug": "popular-action-movies",
+        "traktId": 33032919,
+        "username": "snoak"
+      }
+    }
+  },
+  {
+    "backgroundImageURL": "https://raw.githubusercontent.com/itsrenoria/fusion-starter-kit/refs/heads/main/resources/widgets/genres/poster/dangeruex23/animation-poster.jpg",
+    "hideTitle": true,
+    "id": "33FCEDFD-BCDF-4309-B0B7-39B13F30DADE",
+    "layout": "Poster",
+    "name": "Animation",
+    "dataSources": [
+      {
+        "kind": "traktList",
+        "payload": {
+          "listName": "Popular Animated Movies",
+          "listSlug": "popular-animated-movies",
+          "traktId": 33032925,
+          "username": "snoak"
+        }
+      },
+      {
+        "kind": "traktList",
+        "payload": {
+          "listName": "Popular Animated Shows",
+          "listSlug": "popular-animated-shows",
+          "traktId": 33032922,
+          "username": "snoak"
+        }
+      }
+    ],
+    "dataSource": {
+      "kind": "traktList",
+      "payload": {
+        "listName": "Popular Animated Movies",
+        "listSlug": "popular-animated-movies",
+        "traktId": 33032925,
+        "username": "snoak"
+      }
+    }
+  },
+  {
+    "backgroundImageURL": "https://raw.githubusercontent.com/itsrenoria/fusion-starter-kit/refs/heads/main/resources/widgets/genres/poster/dangeruex23/animation2-poster.jpg",
+    "hideTitle": true,
+    "id": "A0825937-A035-4FDF-9C7D-1C34D3B138E0",
+    "layout": "Poster",
+    "name": "Animation2",
+    "dataSources": [
+      {
+        "kind": "traktList",
+        "payload": {
+          "listName": "Popular Animated Movies",
+          "listSlug": "popular-animated-movies",
+          "traktId": 33032925,
+          "username": "snoak"
+        }
+      },
+      {
+        "kind": "traktList",
+        "payload": {
+          "listName": "Popular Animated Shows",
+          "listSlug": "popular-animated-shows",
+          "traktId": 33032922,
+          "username": "snoak"
+        }
+      }
+    ],
+    "dataSource": {
+      "kind": "traktList",
+      "payload": {
+        "listName": "Popular Animated Movies",
+        "listSlug": "popular-animated-movies",
+        "traktId": 33032925,
+        "username": "snoak"
+      }
+    }
+  },
+  {
+    "backgroundImageURL": "https://raw.githubusercontent.com/itsrenoria/fusion-starter-kit/refs/heads/main/resources/widgets/genres/poster/dangeruex23/comedy-poster.jpg",
+    "hideTitle": true,
+    "id": "BD56D3CE-85B8-44FA-B4CF-BF0FCF180FBE",
+    "layout": "Poster",
+    "name": "Comedy",
+    "dataSources": [
+      {
+        "kind": "traktList",
+        "payload": {
+          "listName": "Popular Comedy Movies",
+          "listSlug": "popular-comedy-movies",
+          "traktId": 33032930,
+          "username": "snoak"
+        }
+      },
+      {
+        "kind": "traktList",
+        "payload": {
+          "listName": "Popular Comedy Shows",
+          "listSlug": "popular-comedy-shows",
+          "traktId": 33032929,
+          "username": "snoak"
+        }
+      }
+    ],
+    "dataSource": {
+      "kind": "traktList",
+      "payload": {
+        "listName": "Popular Comedy Movies",
+        "listSlug": "popular-comedy-movies",
+        "traktId": 33032930,
+        "username": "snoak"
+      }
+    }
+  },
+  {
+    "backgroundImageURL": "https://raw.githubusercontent.com/itsrenoria/fusion-starter-kit/refs/heads/main/resources/widgets/genres/poster/dangeruex23/documentary-poster.jpg",
+    "hideTitle": true,
+    "id": "3FBC7F11-7D2D-4C49-BA1F-8DFC1993149D",
+    "layout": "Poster",
+    "name": "Documentary",
+    "dataSources": [
+      {
+        "kind": "traktList",
+        "payload": {
+          "listName": "Popular Documentary Movies",
+          "listSlug": "popular-documentary-movies",
+          "traktId": 33123349,
+          "username": "snoak"
+        }
+      },
+      {
+        "kind": "traktList",
+        "payload": {
+          "listName": "Popular Documentary Shows",
+          "listSlug": "popular-documentary-shows",
+          "traktId": 33123359,
+          "username": "snoak"
+        }
+      }
+    ],
+    "dataSource": {
+      "kind": "traktList",
+      "payload": {
+        "listName": "Popular Documentary Movies",
+        "listSlug": "popular-documentary-movies",
+        "traktId": 33123349,
+        "username": "snoak"
+      }
+    }
+  },
+  {
+    "backgroundImageURL": "https://raw.githubusercontent.com/itsrenoria/fusion-starter-kit/refs/heads/main/resources/widgets/genres/poster/dangeruex23/drama-poster.jpg",
+    "hideTitle": true,
+    "id": "ADB072E1-5131-49D6-B157-D8DC97CA1671",
+    "layout": "Poster",
+    "name": "Drama",
+    "dataSources": [
+      {
+        "kind": "traktList",
+        "payload": {
+          "listName": "Popular Drama Movies",
+          "listSlug": "popular-drama-movies",
+          "traktId": 33032935,
+          "username": "snoak"
+        }
+      },
+      {
+        "kind": "traktList",
+        "payload": {
+          "listName": "Popular Drama Shows",
+          "listSlug": "popular-drama-shows",
+          "traktId": 33032934,
+          "username": "snoak"
+        }
+      }
+    ],
+    "dataSource": {
+      "kind": "traktList",
+      "payload": {
+        "listName": "Popular Drama Movies",
+        "listSlug": "popular-drama-movies",
+        "traktId": 33032935,
+        "username": "snoak"
+      }
+    }
+  },
+  {
+    "backgroundImageURL": "https://raw.githubusercontent.com/itsrenoria/fusion-starter-kit/refs/heads/main/resources/widgets/genres/poster/dangeruex23/family-poster.jpg",
+    "hideTitle": true,
+    "id": "AE9211B8-0A74-4914-9B01-1B8867609484",
+    "layout": "Poster",
+    "name": "Family",
+    "dataSources": [
+      {
+        "kind": "traktList",
+        "payload": {
+          "listName": "Family Movies",
+          "listSlug": "family-movies",
+          "traktId": 22032854,
+          "username": "rizreflects"
+        }
+      }
+    ],
+    "dataSource": {
+      "kind": "traktList",
+      "payload": {
+        "listName": "Family Movies",
+        "listSlug": "family-movies",
+        "traktId": 22032854,
+        "username": "rizreflects"
+      }
+    }
+  },
+  {
+    "backgroundImageURL": "https://raw.githubusercontent.com/itsrenoria/fusion-starter-kit/refs/heads/main/resources/widgets/genres/poster/dangeruex23/horror-poster.jpg",
+    "hideTitle": true,
+    "id": "BF570435-C280-4007-9008-987885991ED8",
+    "layout": "Poster",
+    "name": "Horror",
+    "dataSources": [
+      {
+        "kind": "traktList",
+        "payload": {
+          "listName": "Popular Horror Movies",
+          "listSlug": "popular-horror-movies",
+          "traktId": 33032936,
+          "username": "snoak"
+        }
+      },
+      {
+        "kind": "traktList",
+        "payload": {
+          "listName": "Popular Horror Shows",
+          "listSlug": "popular-horror-shows",
+          "traktId": 33032939,
+          "username": "snoak"
+        }
+      }
+    ],
+    "dataSource": {
+      "kind": "traktList",
+      "payload": {
+        "listName": "Popular Horror Movies",
+        "listSlug": "popular-horror-movies",
+        "traktId": 33032936,
+        "username": "snoak"
+      }
+    }
+  },
+  {
+    "backgroundImageURL": "https://raw.githubusercontent.com/itsrenoria/fusion-starter-kit/refs/heads/main/resources/widgets/genres/poster/dangeruex23/imdb-poster.jpg",
+    "hideTitle": true,
+    "id": "88DC8381-02AC-403A-8787-6E6F4641A79C",
+    "layout": "Poster",
+    "name": "Imdb",
+    "dataSources": [
+      {
+        "kind": "traktList",
+        "payload": {
+          "listName": "Top 250 Movies (iMDB)",
+          "listSlug": "top-250-movies-imdb",
+          "traktId": 33032976,
+          "username": "snoak"
+        }
+      },
+      {
+        "kind": "traktList",
+        "payload": {
+          "listName": "Top 250 Shows (iMDB)",
+          "listSlug": "top-250-shows-imdb",
+          "traktId": 33032979,
+          "username": "snoak"
+        }
+      }
+    ],
+    "dataSource": {
+      "kind": "traktList",
+      "payload": {
+        "listName": "Top 250 Movies (iMDB)",
+        "listSlug": "top-250-movies-imdb",
+        "traktId": 33032976,
+        "username": "snoak"
+      }
+    }
+  },
+  {
+    "backgroundImageURL": "https://raw.githubusercontent.com/itsrenoria/fusion-starter-kit/refs/heads/main/resources/widgets/genres/poster/dangeruex23/imdb2-poster.jpg",
+    "hideTitle": true,
+    "id": "C08CC96F-3D50-4FA9-B297-84658D036F80",
+    "layout": "Poster",
+    "name": "Imdb2",
+    "dataSources": [
+      {
+        "kind": "traktList",
+        "payload": {
+          "listName": "Top 250 Movies (iMDB)",
+          "listSlug": "top-250-movies-imdb",
+          "traktId": 33032976,
+          "username": "snoak"
+        }
+      },
+      {
+        "kind": "traktList",
+        "payload": {
+          "listName": "Top 250 Shows (iMDB)",
+          "listSlug": "top-250-shows-imdb",
+          "traktId": 33032979,
+          "username": "snoak"
+        }
+      }
+    ],
+    "dataSource": {
+      "kind": "traktList",
+      "payload": {
+        "listName": "Top 250 Movies (iMDB)",
+        "listSlug": "top-250-movies-imdb",
+        "traktId": 33032976,
+        "username": "snoak"
+      }
+    }
+  },
+  {
+    "backgroundImageURL": "https://raw.githubusercontent.com/itsrenoria/fusion-starter-kit/refs/heads/main/resources/widgets/genres/poster/dangeruex23/imdb3-poster.jpg",
+    "hideTitle": true,
+    "id": "3728B173-6281-4F99-913F-868ACB1849BC",
+    "layout": "Poster",
+    "name": "Imdb3",
+    "dataSources": [
+      {
+        "kind": "traktList",
+        "payload": {
+          "listName": "Top 250 Movies (iMDB)",
+          "listSlug": "top-250-movies-imdb",
+          "traktId": 33032976,
+          "username": "snoak"
+        }
+      },
+      {
+        "kind": "traktList",
+        "payload": {
+          "listName": "Top 250 Shows (iMDB)",
+          "listSlug": "top-250-shows-imdb",
+          "traktId": 33032979,
+          "username": "snoak"
+        }
+      }
+    ],
+    "dataSource": {
+      "kind": "traktList",
+      "payload": {
+        "listName": "Top 250 Movies (iMDB)",
+        "listSlug": "top-250-movies-imdb",
+        "traktId": 33032976,
+        "username": "snoak"
+      }
+    }
+  },
+  {
+    "backgroundImageURL": "https://raw.githubusercontent.com/itsrenoria/fusion-starter-kit/refs/heads/main/resources/widgets/genres/poster/dangeruex23/korean-poster.jpg",
+    "hideTitle": true,
+    "id": "249983CB-AA69-4329-A389-EDAE908F8CE7",
+    "layout": "Poster",
+    "name": "Korean",
+    "dataSources": [
+      {
+        "kind": "traktList",
+        "payload": {
+          "listName": "Popular KDrama Movies",
+          "listSlug": "popular-kdrama-movies",
+          "traktId": 33265536,
+          "username": "snoak"
+        }
+      },
+      {
+        "kind": "traktList",
+        "payload": {
+          "listName": "Popular KDrama Shows",
+          "listSlug": "popular-kdrama-shows",
+          "traktId": 33265509,
+          "username": "snoak"
+        }
+      }
+    ],
+    "dataSource": {
+      "kind": "traktList",
+      "payload": {
+        "listName": "Popular KDrama Movies",
+        "listSlug": "popular-kdrama-movies",
+        "traktId": 33265536,
+        "username": "snoak"
+      }
+    }
+  },
+  {
+    "backgroundImageURL": "https://raw.githubusercontent.com/itsrenoria/fusion-starter-kit/refs/heads/main/resources/widgets/genres/poster/dangeruex23/korean2-poster.jpg",
+    "hideTitle": true,
+    "id": "B412918E-DA6D-4594-9D04-762A24B53396",
+    "layout": "Poster",
+    "name": "Korean2",
+    "dataSources": [
+      {
+        "kind": "traktList",
+        "payload": {
+          "listName": "Popular KDrama Movies",
+          "listSlug": "popular-kdrama-movies",
+          "traktId": 33265536,
+          "username": "snoak"
+        }
+      },
+      {
+        "kind": "traktList",
+        "payload": {
+          "listName": "Popular KDrama Shows",
+          "listSlug": "popular-kdrama-shows",
+          "traktId": 33265509,
+          "username": "snoak"
+        }
+      }
+    ],
+    "dataSource": {
+      "kind": "traktList",
+      "payload": {
+        "listName": "Popular KDrama Movies",
+        "listSlug": "popular-kdrama-movies",
+        "traktId": 33265536,
+        "username": "snoak"
+      }
+    }
+  },
+  {
+    "backgroundImageURL": "https://raw.githubusercontent.com/itsrenoria/fusion-starter-kit/refs/heads/main/resources/widgets/genres/poster/dangeruex23/miniseries-poster.jpg",
+    "hideTitle": true,
+    "id": "E432E752-53A0-421F-A3EF-E714172905AF",
+    "layout": "Poster",
+    "name": "Miniseries",
+    "dataSources": [
+      {
+        "kind": "traktList",
+        "payload": {
+          "listName": "Popular Miniseries",
+          "listSlug": "popular-miniseries",
+          "traktId": 33233569,
+          "username": "snoak"
+        }
+      }
+    ],
+    "dataSource": {
+      "kind": "traktList",
+      "payload": {
+        "listName": "Popular Miniseries",
+        "listSlug": "popular-miniseries",
+        "traktId": 33233569,
+        "username": "snoak"
+      }
+    }
+  },
+  {
+    "backgroundImageURL": "https://raw.githubusercontent.com/itsrenoria/fusion-starter-kit/refs/heads/main/resources/widgets/genres/poster/dangeruex23/miniseries2-poster.jpg",
+    "hideTitle": true,
+    "id": "93264455-7542-4137-841C-333D1D130F98",
+    "layout": "Poster",
+    "name": "Miniseries2",
+    "dataSources": [
+      {
+        "kind": "traktList",
+        "payload": {
+          "listName": "Popular Miniseries",
+          "listSlug": "popular-miniseries",
+          "traktId": 33233569,
+          "username": "snoak"
+        }
+      }
+    ],
+    "dataSource": {
+      "kind": "traktList",
+      "payload": {
+        "listName": "Popular Miniseries",
+        "listSlug": "popular-miniseries",
+        "traktId": 33233569,
+        "username": "snoak"
+      }
+    }
+  },
+  {
+    "backgroundImageURL": "https://raw.githubusercontent.com/itsrenoria/fusion-starter-kit/refs/heads/main/resources/widgets/genres/poster/dangeruex23/miniseries3-poster.jpg",
+    "hideTitle": true,
+    "id": "0490E1E5-BCA6-4F25-9252-E6A0499B4297",
+    "layout": "Poster",
+    "name": "Miniseries3",
+    "dataSources": [
+      {
+        "kind": "traktList",
+        "payload": {
+          "listName": "Popular Miniseries",
+          "listSlug": "popular-miniseries",
+          "traktId": 33233569,
+          "username": "snoak"
+        }
+      }
+    ],
+    "dataSource": {
+      "kind": "traktList",
+      "payload": {
+        "listName": "Popular Miniseries",
+        "listSlug": "popular-miniseries",
+        "traktId": 33233569,
+        "username": "snoak"
+      }
+    }
+  },
+  {
+    "backgroundImageURL": "https://raw.githubusercontent.com/itsrenoria/fusion-starter-kit/refs/heads/main/resources/widgets/genres/poster/dangeruex23/narrative-poster.jpg",
+    "hideTitle": true,
+    "id": "16737DB0-EA2D-4EB3-8678-B40C449D2564",
+    "layout": "Poster",
+    "name": "Narrative",
+    "dataSources": [
+      {
+        "kind": "traktList",
+        "payload": {
+          "listName": "Top 250 Narrative Feature Films (Letterboxd Official)",
+          "listSlug": "top-250-narrative-feature-films-letterboxd-official",
+          "traktId": 33380497,
+          "username": "snoak"
+        }
+      }
+    ],
+    "dataSource": {
+      "kind": "traktList",
+      "payload": {
+        "listName": "Top 250 Narrative Feature Films (Letterboxd Official)",
+        "listSlug": "top-250-narrative-feature-films-letterboxd-official",
+        "traktId": 33380497,
+        "username": "snoak"
+      }
+    }
+  },
+  {
+    "backgroundImageURL": "https://raw.githubusercontent.com/itsrenoria/fusion-starter-kit/refs/heads/main/resources/widgets/genres/poster/dangeruex23/narrative2-poster.jpg",
+    "hideTitle": true,
+    "id": "C749D55E-29FA-4320-A8C2-C9E4FE7DD1E9",
+    "layout": "Poster",
+    "name": "Narrative2",
+    "dataSources": [
+      {
+        "kind": "traktList",
+        "payload": {
+          "listName": "Top 250 Narrative Feature Films (Letterboxd Official)",
+          "listSlug": "top-250-narrative-feature-films-letterboxd-official",
+          "traktId": 33380497,
+          "username": "snoak"
+        }
+      }
+    ],
+    "dataSource": {
+      "kind": "traktList",
+      "payload": {
+        "listName": "Top 250 Narrative Feature Films (Letterboxd Official)",
+        "listSlug": "top-250-narrative-feature-films-letterboxd-official",
+        "traktId": 33380497,
+        "username": "snoak"
+      }
+    }
+  },
+  {
+    "backgroundImageURL": "https://raw.githubusercontent.com/itsrenoria/fusion-starter-kit/refs/heads/main/resources/widgets/genres/poster/dangeruex23/romance-poster.jpg",
+    "hideTitle": true,
+    "id": "EDF8C95D-8F93-4BB6-9544-A959D2AA0028",
+    "layout": "Poster",
+    "name": "Romance",
+    "dataSources": [
+      {
+        "kind": "traktList",
+        "payload": {
+          "listName": "Popular Romance Movies",
+          "listSlug": "popular-romance-movies",
+          "traktId": 33132644,
+          "username": "snoak"
+        }
+      },
+      {
+        "kind": "traktList",
+        "payload": {
+          "listName": "Popular Romance Shows",
+          "listSlug": "popular-romance-shows",
+          "traktId": 33132723,
+          "username": "snoak"
+        }
+      }
+    ],
+    "dataSource": {
+      "kind": "traktList",
+      "payload": {
+        "listName": "Popular Romance Movies",
+        "listSlug": "popular-romance-movies",
+        "traktId": 33132644,
+        "username": "snoak"
+      }
+    }
+  },
+  {
+    "backgroundImageURL": "https://raw.githubusercontent.com/itsrenoria/fusion-starter-kit/refs/heads/main/resources/widgets/genres/poster/dangeruex23/scifi-poster.jpg",
+    "hideTitle": true,
+    "id": "51C3644B-A1D4-4658-A3B1-21372CC58755",
+    "layout": "Poster",
+    "name": "Scifi",
+    "dataSources": [
+      {
+        "kind": "traktList",
+        "payload": {
+          "listName": "Popular Sci-Fi Movies",
+          "listSlug": "popular-sci-fi-movies",
+          "traktId": 33032944,
+          "username": "snoak"
+        }
+      },
+      {
+        "kind": "traktList",
+        "payload": {
+          "listName": "Popular Sci-Fi Shows",
+          "listSlug": "popular-sci-fi-shows",
+          "traktId": 33032946,
+          "username": "snoak"
+        }
+      }
+    ],
+    "dataSource": {
+      "kind": "traktList",
+      "payload": {
+        "listName": "Popular Sci-Fi Movies",
+        "listSlug": "popular-sci-fi-movies",
+        "traktId": 33032944,
+        "username": "snoak"
+      }
+    }
+  },
+  {
+    "backgroundImageURL": "https://raw.githubusercontent.com/itsrenoria/fusion-starter-kit/refs/heads/main/resources/widgets/genres/poster/dangeruex23/thriller-poster.jpg",
+    "hideTitle": true,
+    "id": "B1003619-ADCB-4AD0-9E11-5C77D08446C8",
+    "layout": "Poster",
+    "name": "Thriller",
+    "dataSources": [
+      {
+        "kind": "traktList",
+        "payload": {
+          "listName": "Popular Thriller Movies",
+          "listSlug": "popular-thriller-movies",
+          "traktId": 33032952,
+          "username": "snoak"
+        }
+      },
+      {
+        "kind": "traktList",
+        "payload": {
+          "listName": "Popular Thriller Shows",
+          "listSlug": "popular-thriller-shows",
+          "traktId": 33032950,
+          "username": "snoak"
+        }
+      }
+    ],
+    "dataSource": {
+      "kind": "traktList",
+      "payload": {
+        "listName": "Popular Thriller Movies",
+        "listSlug": "popular-thriller-movies",
+        "traktId": 33032952,
+        "username": "snoak"
+      }
+    }
+  }
+]

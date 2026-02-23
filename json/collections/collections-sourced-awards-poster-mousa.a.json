@@ -1,0 +1,164 @@
+[
+  {
+    "backgroundImageURL": "https://raw.githubusercontent.com/itsrenoria/fusion-starter-kit/refs/heads/main/resources/widgets/awards/poster/mousa.a/bafta-poster.png",
+    "hideTitle": true,
+    "id": "E4EB9847-1079-444C-86AA-400C8BC4E055",
+    "layout": "Poster",
+    "name": "Bafta",
+    "dataSources": [
+      {
+        "kind": "traktList",
+        "payload": {
+          "listName": "BAFTA - Best Film Award Winners",
+          "listSlug": "bafta-best-film-award-winners",
+          "traktId": 24791084,
+          "username": "foux72"
+        }
+      }
+    ],
+    "dataSource": {
+      "kind": "traktList",
+      "payload": {
+        "listName": "BAFTA - Best Film Award Winners",
+        "listSlug": "bafta-best-film-award-winners",
+        "traktId": 24791084,
+        "username": "foux72"
+      }
+    }
+  },
+  {
+    "backgroundImageURL": "https://raw.githubusercontent.com/itsrenoria/fusion-starter-kit/refs/heads/main/resources/widgets/awards/poster/mousa.a/fisa-poster.png",
+    "hideTitle": true,
+    "id": "14256245-4BE0-463C-BD35-FCA543795677",
+    "layout": "Poster",
+    "name": "Fisa",
+    "dataSources": [
+      {
+        "kind": "traktList",
+        "payload": {
+          "listName": "Film Independent Spirit Awards \u2014 Best Feature",
+          "listSlug": "film-independent-spirit-awards-best-feature",
+          "traktId": 32197432,
+          "username": "victorchagas"
+        }
+      }
+    ],
+    "dataSource": {
+      "kind": "traktList",
+      "payload": {
+        "listName": "Film Independent Spirit Awards \u2014 Best Feature",
+        "listSlug": "film-independent-spirit-awards-best-feature",
+        "traktId": 32197432,
+        "username": "victorchagas"
+      }
+    }
+  },
+  {
+    "backgroundImageURL": "https://raw.githubusercontent.com/itsrenoria/fusion-starter-kit/refs/heads/main/resources/widgets/awards/poster/mousa.a/goldenglobes-poster.png",
+    "hideTitle": true,
+    "id": "F182135E-596F-4991-94CA-DECB63C28784",
+    "layout": "Poster",
+    "name": "Goldenglobes",
+    "dataSources": [
+      {
+        "kind": "traktList",
+        "payload": {
+          "listName": "Rotten Tomatoes\u2019 Golden Globes Best Picture Winners by Tomatometer copy",
+          "listSlug": "rotten-tomatoes-golden-globes-best-picture-winners-by-tomatometer-copy",
+          "traktId": 6241767,
+          "username": "danielle0412"
+        }
+      }
+    ],
+    "dataSource": {
+      "kind": "traktList",
+      "payload": {
+        "listName": "Rotten Tomatoes\u2019 Golden Globes Best Picture Winners by Tomatometer copy",
+        "listSlug": "rotten-tomatoes-golden-globes-best-picture-winners-by-tomatometer-copy",
+        "traktId": 6241767,
+        "username": "danielle0412"
+      }
+    }
+  },
+  {
+    "backgroundImageURL": "https://raw.githubusercontent.com/itsrenoria/fusion-starter-kit/refs/heads/main/resources/widgets/awards/poster/mousa.a/iff-poster.png",
+    "hideTitle": true,
+    "id": "5D5B614C-A62F-42C8-BC92-3CAE611D07C3",
+    "layout": "Poster",
+    "name": "Iff",
+    "dataSources": [
+      {
+        "kind": "traktList",
+        "payload": {
+          "listName": "Festival de Cannes: Palme d'Or winners",
+          "listSlug": "festival-de-cannes-palme-d-or-winners",
+          "traktId": 32434377,
+          "username": "PierreDurrr"
+        }
+      }
+    ],
+    "dataSource": {
+      "kind": "traktList",
+      "payload": {
+        "listName": "Festival de Cannes: Palme d'Or winners",
+        "listSlug": "festival-de-cannes-palme-d-or-winners",
+        "traktId": 32434377,
+        "username": "PierreDurrr"
+      }
+    }
+  },
+  {
+    "backgroundImageURL": "https://raw.githubusercontent.com/itsrenoria/fusion-starter-kit/refs/heads/main/resources/widgets/awards/poster/mousa.a/oscars-poster.png",
+    "hideTitle": true,
+    "id": "724FF6DF-1B2E-418B-A8B4-E265E5E0771C",
+    "layout": "Poster",
+    "name": "Oscars",
+    "dataSources": [
+      {
+        "kind": "traktList",
+        "payload": {
+          "listName": "The Oscars: Best Picture Nominees",
+          "listSlug": "the-oscars-best-picture-nominees",
+          "traktId": 33535789,
+          "username": "jackrabbitslim"
+        }
+      }
+    ],
+    "dataSource": {
+      "kind": "traktList",
+      "payload": {
+        "listName": "The Oscars: Best Picture Nominees",
+        "listSlug": "the-oscars-best-picture-nominees",
+        "traktId": 33535789,
+        "username": "jackrabbitslim"
+      }
+    }
+  },
+  {
+    "backgroundImageURL": "https://raw.githubusercontent.com/itsrenoria/fusion-starter-kit/refs/heads/main/resources/widgets/awards/poster/mousa.a/viff-poster.png",
+    "hideTitle": true,
+    "id": "0BD982F5-BC3D-4859-9E8B-E1267C32A064",
+    "layout": "Poster",
+    "name": "Viff",
+    "dataSources": [
+      {
+        "kind": "traktList",
+        "payload": {
+          "listName": "Venice Film Festival - Golden Lion",
+          "listSlug": "venice-film-festival-golden-lion",
+          "traktId": 9360302,
+          "username": "maxwelldeux"
+        }
+      }
+    ],
+    "dataSource": {
+      "kind": "traktList",
+      "payload": {
+        "listName": "Venice Film Festival - Golden Lion",
+        "listSlug": "venice-film-festival-golden-lion",
+        "traktId": 9360302,
+        "username": "maxwelldeux"
+      }
+    }
+  }
+]

@@ -1,0 +1,191 @@
+[
+  {
+    "backgroundImageURL": "https://raw.githubusercontent.com/itsrenoria/fusion-starter-kit/refs/heads/main/resources/widgets/decades/poster/mousa.a/1960s-poster.png",
+    "hideTitle": true,
+    "id": "FE249185-47F0-429E-AED2-FC47A37021E1",
+    "layout": "Poster",
+    "name": "1960s",
+    "dataSources": [
+      {
+        "kind": "traktList",
+        "payload": {
+          "listName": "Popular 1960s Movies",
+          "listSlug": "popular-1960s-movies",
+          "traktId": 33747299,
+          "username": "snoak"
+        }
+      }
+    ],
+    "dataSource": {
+      "kind": "traktList",
+      "payload": {
+        "listName": "Popular 1960s Movies",
+        "listSlug": "popular-1960s-movies",
+        "traktId": 33747299,
+        "username": "snoak"
+      }
+    }
+  },
+  {
+    "backgroundImageURL": "https://raw.githubusercontent.com/itsrenoria/fusion-starter-kit/refs/heads/main/resources/widgets/decades/poster/mousa.a/1970s-poster.png",
+    "hideTitle": true,
+    "id": "899808FF-31C5-45CC-B9A2-1B3F53A3AE8E",
+    "layout": "Poster",
+    "name": "1970s",
+    "dataSources": [
+      {
+        "kind": "traktList",
+        "payload": {
+          "listName": "Popular 1970s Movies",
+          "listSlug": "popular-1970s-movies",
+          "traktId": 33119476,
+          "username": "snoak"
+        }
+      }
+    ],
+    "dataSource": {
+      "kind": "traktList",
+      "payload": {
+        "listName": "Popular 1970s Movies",
+        "listSlug": "popular-1970s-movies",
+        "traktId": 33119476,
+        "username": "snoak"
+      }
+    }
+  },
+  {
+    "backgroundImageURL": "https://raw.githubusercontent.com/itsrenoria/fusion-starter-kit/refs/heads/main/resources/widgets/decades/poster/mousa.a/1980s-poster.png",
+    "hideTitle": true,
+    "id": "6D5C7AA3-FC9C-4D0B-8ED3-22DD4B03FC97",
+    "layout": "Poster",
+    "name": "1980s",
+    "dataSources": [
+      {
+        "kind": "traktList",
+        "payload": {
+          "listName": "Popular 1980s Movies",
+          "listSlug": "popular-1980s-movies",
+          "traktId": 33032956,
+          "username": "snoak"
+        }
+      }
+    ],
+    "dataSource": {
+      "kind": "traktList",
+      "payload": {
+        "listName": "Popular 1980s Movies",
+        "listSlug": "popular-1980s-movies",
+        "traktId": 33032956,
+        "username": "snoak"
+      }
+    }
+  },
+  {
+    "backgroundImageURL": "https://raw.githubusercontent.com/itsrenoria/fusion-starter-kit/refs/heads/main/resources/widgets/decades/poster/mousa.a/1990s-poster.png",
+    "hideTitle": true,
+    "id": "A86CE436-6D1B-4EDF-BA15-94B609DE1EF6",
+    "layout": "Poster",
+    "name": "1990s",
+    "dataSources": [
+      {
+        "kind": "traktList",
+        "payload": {
+          "listName": "Popular 1990s Movies",
+          "listSlug": "popular-1990s-movies",
+          "traktId": 33032959,
+          "username": "snoak"
+        }
+      }
+    ],
+    "dataSource": {
+      "kind": "traktList",
+      "payload": {
+        "listName": "Popular 1990s Movies",
+        "listSlug": "popular-1990s-movies",
+        "traktId": 33032959,
+        "username": "snoak"
+      }
+    }
+  },
+  {
+    "backgroundImageURL": "https://raw.githubusercontent.com/itsrenoria/fusion-starter-kit/refs/heads/main/resources/widgets/decades/poster/mousa.a/2000s-poster.png",
+    "hideTitle": true,
+    "id": "2684CD48-431F-4374-A78A-16948DDEDC99",
+    "layout": "Poster",
+    "name": "2000s",
+    "dataSources": [
+      {
+        "kind": "traktList",
+        "payload": {
+          "listName": "Popular 2000s Movies",
+          "listSlug": "popular-2000s-movies",
+          "traktId": 33032965,
+          "username": "snoak"
+        }
+      }
+    ],
+    "dataSource": {
+      "kind": "traktList",
+      "payload": {
+        "listName": "Popular 2000s Movies",
+        "listSlug": "popular-2000s-movies",
+        "traktId": 33032965,
+        "username": "snoak"
+      }
+    }
+  },
+  {
+    "backgroundImageURL": "https://raw.githubusercontent.com/itsrenoria/fusion-starter-kit/refs/heads/main/resources/widgets/decades/poster/mousa.a/2010s-poster.png",
+    "hideTitle": true,
+    "id": "83BED3AF-80CA-403C-B806-E7EAF4D302B0",
+    "layout": "Poster",
+    "name": "2010s",
+    "dataSources": [
+      {
+        "kind": "traktList",
+        "payload": {
+          "listName": "Popular 2010s Movies",
+          "listSlug": "popular-2010s-movies",
+          "traktId": 33032968,
+          "username": "snoak"
+        }
+      }
+    ],
+    "dataSource": {
+      "kind": "traktList",
+      "payload": {
+        "listName": "Popular 2010s Movies",
+        "listSlug": "popular-2010s-movies",
+        "traktId": 33032968,
+        "username": "snoak"
+      }
+    }
+  },
+  {
+    "backgroundImageURL": "https://raw.githubusercontent.com/itsrenoria/fusion-starter-kit/refs/heads/main/resources/widgets/decades/poster/mousa.a/2020s-poster.png",
+    "hideTitle": true,
+    "id": "C46CA4D6-2445-4566-8260-DB6B62789E9E",
+    "layout": "Poster",
+    "name": "2020s",
+    "dataSources": [
+      {
+        "kind": "traktList",
+        "payload": {
+          "listName": "Popular 2020s Movies",
+          "listSlug": "popular-2020s-movies",
+          "traktId": 33032971,
+          "username": "snoak"
+        }
+      }
+    ],
+    "dataSource": {
+      "kind": "traktList",
+      "payload": {
+        "listName": "Popular 2020s Movies",
+        "listSlug": "popular-2020s-movies",
+        "traktId": 33032971,
+        "username": "snoak"
+      }
+    }
+  }
+]

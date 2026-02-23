@@ -1,0 +1,272 @@
+[
+  {
+    "backgroundImageURL": "https://raw.githubusercontent.com/itsrenoria/fusion-starter-kit/refs/heads/main/resources/widgets/directors/wide/fexm92/anderson-wide.png",
+    "hideTitle": true,
+    "id": "96BC5FBA-C36B-4073-9316-205A1BE5F6E5",
+    "layout": "Wide",
+    "name": "Anderson",
+    "dataSources": [
+      {
+        "kind": "traktList",
+        "payload": {
+          "listName": "Paul Thomas Anderson",
+          "listSlug": "paul-thomas-anderson",
+          "traktId": 31014346,
+          "username": "Mawsa"
+        }
+      }
+    ],
+    "dataSource": {
+      "kind": "traktList",
+      "payload": {
+        "listName": "Paul Thomas Anderson",
+        "listSlug": "paul-thomas-anderson",
+        "traktId": 31014346,
+        "username": "Mawsa"
+      }
+    }
+  },
+  {
+    "backgroundImageURL": "https://raw.githubusercontent.com/itsrenoria/fusion-starter-kit/refs/heads/main/resources/widgets/directors/wide/fexm92/carpenter-wide.png",
+    "hideTitle": true,
+    "id": "B8981F52-A61A-4954-83B3-AE5330BE4E77",
+    "layout": "Wide",
+    "name": "Carpenter",
+    "dataSources": [
+      {
+        "kind": "traktList",
+        "payload": {
+          "listName": "John Carpenter",
+          "listSlug": "john-carpenter",
+          "traktId": 31014355,
+          "username": "Mawsa"
+        }
+      }
+    ],
+    "dataSource": {
+      "kind": "traktList",
+      "payload": {
+        "listName": "John Carpenter",
+        "listSlug": "john-carpenter",
+        "traktId": 31014355,
+        "username": "Mawsa"
+      }
+    }
+  },
+  {
+    "backgroundImageURL": "https://raw.githubusercontent.com/itsrenoria/fusion-starter-kit/refs/heads/main/resources/widgets/directors/wide/fexm92/depalma-wide.png",
+    "hideTitle": true,
+    "id": "0C254994-7EAB-411A-AE9B-AAC0532459D6",
+    "layout": "Wide",
+    "name": "Depalma",
+    "dataSources": [
+      {
+        "kind": "traktList",
+        "payload": {
+          "listName": "Brian De Palma",
+          "listSlug": "brian-de-palma",
+          "traktId": 31014353,
+          "username": "Mawsa"
+        }
+      }
+    ],
+    "dataSource": {
+      "kind": "traktList",
+      "payload": {
+        "listName": "Brian De Palma",
+        "listSlug": "brian-de-palma",
+        "traktId": 31014353,
+        "username": "Mawsa"
+      }
+    }
+  },
+  {
+    "backgroundImageURL": "https://raw.githubusercontent.com/itsrenoria/fusion-starter-kit/refs/heads/main/resources/widgets/directors/wide/fexm92/fincher-wide.png",
+    "hideTitle": true,
+    "id": "82CB6997-2849-4DA4-B5A9-A3FDB8B7C8DD",
+    "layout": "Wide",
+    "name": "Fincher",
+    "dataSources": [
+      {
+        "kind": "traktList",
+        "payload": {
+          "listName": "David Fincher",
+          "listSlug": "david-fincher",
+          "traktId": 31014339,
+          "username": "Mawsa"
+        }
+      }
+    ],
+    "dataSource": {
+      "kind": "traktList",
+      "payload": {
+        "listName": "David Fincher",
+        "listSlug": "david-fincher",
+        "traktId": 31014339,
+        "username": "Mawsa"
+      }
+    }
+  },
+  {
+    "backgroundImageURL": "https://raw.githubusercontent.com/itsrenoria/fusion-starter-kit/refs/heads/main/resources/widgets/directors/wide/fexm92/hitchcock-wide.png",
+    "hideTitle": true,
+    "id": "CBED6B14-FAE3-49EA-AE75-67D06000E1CA",
+    "layout": "Wide",
+    "name": "Hitchcock",
+    "dataSources": [
+      {
+        "kind": "traktList",
+        "payload": {
+          "listName": "Alfred Hitchcock",
+          "listSlug": "alfred-hitchcock",
+          "traktId": 31014342,
+          "username": "Mawsa"
+        }
+      }
+    ],
+    "dataSource": {
+      "kind": "traktList",
+      "payload": {
+        "listName": "Alfred Hitchcock",
+        "listSlug": "alfred-hitchcock",
+        "traktId": 31014342,
+        "username": "Mawsa"
+      }
+    }
+  },
+  {
+    "backgroundImageURL": "https://raw.githubusercontent.com/itsrenoria/fusion-starter-kit/refs/heads/main/resources/widgets/directors/wide/fexm92/kubrick-wide.png",
+    "hideTitle": true,
+    "id": "9C40EDC7-8E12-4AB6-82DD-701BFE35BC9E",
+    "layout": "Wide",
+    "name": "Kubrick",
+    "dataSources": [
+      {
+        "kind": "traktList",
+        "payload": {
+          "listName": "Stanley Kubrick",
+          "listSlug": "stanley-kubrick",
+          "traktId": 31014332,
+          "username": "Mawsa"
+        }
+      }
+    ],
+    "dataSource": {
+      "kind": "traktList",
+      "payload": {
+        "listName": "Stanley Kubrick",
+        "listSlug": "stanley-kubrick",
+        "traktId": 31014332,
+        "username": "Mawsa"
+      }
+    }
+  },
+  {
+    "backgroundImageURL": "https://raw.githubusercontent.com/itsrenoria/fusion-starter-kit/refs/heads/main/resources/widgets/directors/wide/fexm92/nolan-wide.png",
+    "hideTitle": true,
+    "id": "DF004461-831F-4038-A30E-53958BC81B31",
+    "layout": "Wide",
+    "name": "Nolan",
+    "dataSources": [
+      {
+        "kind": "traktList",
+        "payload": {
+          "listName": "Christopher Nolan",
+          "listSlug": "christopher-nolan",
+          "traktId": 31014301,
+          "username": "Mawsa"
+        }
+      }
+    ],
+    "dataSource": {
+      "kind": "traktList",
+      "payload": {
+        "listName": "Christopher Nolan",
+        "listSlug": "christopher-nolan",
+        "traktId": 31014301,
+        "username": "Mawsa"
+      }
+    }
+  },
+  {
+    "backgroundImageURL": "https://raw.githubusercontent.com/itsrenoria/fusion-starter-kit/refs/heads/main/resources/widgets/directors/wide/fexm92/scorsese-wide.png",
+    "hideTitle": true,
+    "id": "5215C918-8354-4912-B4E9-CE51217D5DAB",
+    "layout": "Wide",
+    "name": "Scorsese",
+    "dataSources": [
+      {
+        "kind": "traktList",
+        "payload": {
+          "listName": "Martin Scorsese",
+          "listSlug": "martin-scorsese",
+          "traktId": 31014311,
+          "username": "Mawsa"
+        }
+      }
+    ],
+    "dataSource": {
+      "kind": "traktList",
+      "payload": {
+        "listName": "Martin Scorsese",
+        "listSlug": "martin-scorsese",
+        "traktId": 31014311,
+        "username": "Mawsa"
+      }
+    }
+  },
+  {
+    "backgroundImageURL": "https://raw.githubusercontent.com/itsrenoria/fusion-starter-kit/refs/heads/main/resources/widgets/directors/wide/fexm92/spielberg-wide.png",
+    "hideTitle": true,
+    "id": "D593CD58-1173-46F3-B4FB-B534A3CC4F39",
+    "layout": "Wide",
+    "name": "Spielberg",
+    "dataSources": [
+      {
+        "kind": "traktList",
+        "payload": {
+          "listName": "Steven Spielberg",
+          "listSlug": "steven-spielberg",
+          "traktId": 31014326,
+          "username": "Mawsa"
+        }
+      }
+    ],
+    "dataSource": {
+      "kind": "traktList",
+      "payload": {
+        "listName": "Steven Spielberg",
+        "listSlug": "steven-spielberg",
+        "traktId": 31014326,
+        "username": "Mawsa"
+      }
+    }
+  },
+  {
+    "backgroundImageURL": "https://raw.githubusercontent.com/itsrenoria/fusion-starter-kit/refs/heads/main/resources/widgets/directors/wide/fexm92/villeneuve-wide.png",
+    "hideTitle": true,
+    "id": "0834809D-F7C7-4CD8-A39E-04A0C8D46EBB",
+    "layout": "Wide",
+    "name": "Villeneuve",
+    "dataSources": [
+      {
+        "kind": "traktList",
+        "payload": {
+          "listName": "Denis Villeneuve",
+          "listSlug": "denis-villeneuve",
+          "traktId": 31014352,
+          "username": "Mawsa"
+        }
+      }
+    ],
+    "dataSource": {
+      "kind": "traktList",
+      "payload": {
+        "listName": "Denis Villeneuve",
+        "listSlug": "denis-villeneuve",
+        "traktId": 31014352,
+        "username": "Mawsa"
+      }
+    }
+  }
+]

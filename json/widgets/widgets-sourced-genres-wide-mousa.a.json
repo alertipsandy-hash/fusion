@@ -1,0 +1,279 @@
+{
+  "exportType": "fusionWidgets",
+  "exportVersion": 1,
+  "widgets": [
+    {
+      "dataSource": {
+        "kind": "collection",
+        "payload": {
+          "items": [
+            {
+              "hideTitle": true,
+              "id": "F86163BE-73CA-4704-8350-32C1975772A5",
+              "imageAspect": "wide",
+              "imageURL": "https://raw.githubusercontent.com/itsrenoria/fusion-starter-kit/refs/heads/main/resources/widgets/genres/wide/mousa.a/action-wide.png",
+              "title": "Action",
+              "dataSources": [
+                {
+                  "kind": "traktList",
+                  "payload": {
+                    "listName": "Popular Action Movies",
+                    "listSlug": "popular-action-movies",
+                    "traktId": 33032919,
+                    "username": "snoak"
+                  }
+                },
+                {
+                  "kind": "traktList",
+                  "payload": {
+                    "listName": "Popular Action Shows",
+                    "listSlug": "popular-action-shows",
+                    "traktId": 33032916,
+                    "username": "snoak"
+                  }
+                }
+              ]
+            },
+            {
+              "hideTitle": true,
+              "id": "B38A5CB7-9DE0-40BA-AC5A-C7D856C5A1C0",
+              "imageAspect": "wide",
+              "imageURL": "https://raw.githubusercontent.com/itsrenoria/fusion-starter-kit/refs/heads/main/resources/widgets/genres/wide/mousa.a/comedy-wide.png",
+              "title": "Comedy",
+              "dataSources": [
+                {
+                  "kind": "traktList",
+                  "payload": {
+                    "listName": "Popular Comedy Movies",
+                    "listSlug": "popular-comedy-movies",
+                    "traktId": 33032930,
+                    "username": "snoak"
+                  }
+                },
+                {
+                  "kind": "traktList",
+                  "payload": {
+                    "listName": "Popular Comedy Shows",
+                    "listSlug": "popular-comedy-shows",
+                    "traktId": 33032929,
+                    "username": "snoak"
+                  }
+                }
+              ]
+            },
+            {
+              "hideTitle": true,
+              "id": "8E229741-35AA-483D-8E04-1B1C0AB12725",
+              "imageAspect": "wide",
+              "imageURL": "https://raw.githubusercontent.com/itsrenoria/fusion-starter-kit/refs/heads/main/resources/widgets/genres/wide/mousa.a/crime-wide.png",
+              "title": "Crime",
+              "dataSources": [
+                {
+                  "kind": "traktList",
+                  "payload": {
+                    "listName": "Crime",
+                    "listSlug": "crime",
+                    "traktId": 20770341,
+                    "username": "garycrawfordgc"
+                  }
+                },
+                {
+                  "kind": "traktList",
+                  "payload": {
+                    "listName": "Crime Shows",
+                    "listSlug": "crime-shows",
+                    "traktId": 20772104,
+                    "username": "garycrawfordgc"
+                  }
+                }
+              ]
+            },
+            {
+              "hideTitle": true,
+              "id": "C4BD1D3B-5845-4E8C-94E0-CB8F121A19B0",
+              "imageAspect": "wide",
+              "imageURL": "https://raw.githubusercontent.com/itsrenoria/fusion-starter-kit/refs/heads/main/resources/widgets/genres/wide/mousa.a/drama-wide.png",
+              "title": "Drama",
+              "dataSources": [
+                {
+                  "kind": "traktList",
+                  "payload": {
+                    "listName": "Popular Drama Movies",
+                    "listSlug": "popular-drama-movies",
+                    "traktId": 33032935,
+                    "username": "snoak"
+                  }
+                },
+                {
+                  "kind": "traktList",
+                  "payload": {
+                    "listName": "Popular Drama Shows",
+                    "listSlug": "popular-drama-shows",
+                    "traktId": 33032934,
+                    "username": "snoak"
+                  }
+                }
+              ]
+            },
+            {
+              "hideTitle": true,
+              "id": "4F0A7400-BF42-4E12-8A7C-9EB147DE79EC",
+              "imageAspect": "wide",
+              "imageURL": "https://raw.githubusercontent.com/itsrenoria/fusion-starter-kit/refs/heads/main/resources/widgets/genres/wide/mousa.a/fantasy-wide.png",
+              "title": "Fantasy",
+              "dataSources": [
+                {
+                  "kind": "traktList",
+                  "payload": {
+                    "listName": "Fantasy Movies",
+                    "listSlug": "fantasy-movies",
+                    "traktId": 22033383,
+                    "username": "rizreflects"
+                  }
+                }
+              ]
+            },
+            {
+              "hideTitle": true,
+              "id": "3F311BE5-75F4-450C-8D70-20D89794D08F",
+              "imageAspect": "wide",
+              "imageURL": "https://raw.githubusercontent.com/itsrenoria/fusion-starter-kit/refs/heads/main/resources/widgets/genres/wide/mousa.a/horror-wide.png",
+              "title": "Horror",
+              "dataSources": [
+                {
+                  "kind": "traktList",
+                  "payload": {
+                    "listName": "Popular Horror Movies",
+                    "listSlug": "popular-horror-movies",
+                    "traktId": 33032936,
+                    "username": "snoak"
+                  }
+                },
+                {
+                  "kind": "traktList",
+                  "payload": {
+                    "listName": "Popular Horror Shows",
+                    "listSlug": "popular-horror-shows",
+                    "traktId": 33032939,
+                    "username": "snoak"
+                  }
+                }
+              ]
+            },
+            {
+              "hideTitle": true,
+              "id": "3AC94766-2D6C-4EAF-83E9-5C3F94E7717C",
+              "imageAspect": "wide",
+              "imageURL": "https://raw.githubusercontent.com/itsrenoria/fusion-starter-kit/refs/heads/main/resources/widgets/genres/wide/mousa.a/kids-wide.png",
+              "title": "Kids",
+              "dataSources": [
+                {
+                  "kind": "traktList",
+                  "payload": {
+                    "listName": "Trending Kids Movies",
+                    "listSlug": "trending-kids-movies",
+                    "traktId": 33032833,
+                    "username": "snoak"
+                  }
+                },
+                {
+                  "kind": "traktList",
+                  "payload": {
+                    "listName": "Trending Kids Shows",
+                    "listSlug": "trending-kids-shows",
+                    "traktId": 30828731,
+                    "username": "tvgeniekodi"
+                  }
+                }
+              ]
+            },
+            {
+              "hideTitle": true,
+              "id": "02B7500B-1BA4-41A4-B0F7-70B3652AB77C",
+              "imageAspect": "wide",
+              "imageURL": "https://raw.githubusercontent.com/itsrenoria/fusion-starter-kit/refs/heads/main/resources/widgets/genres/wide/mousa.a/romance-wide.png",
+              "title": "Romance",
+              "dataSources": [
+                {
+                  "kind": "traktList",
+                  "payload": {
+                    "listName": "Popular Romance Movies",
+                    "listSlug": "popular-romance-movies",
+                    "traktId": 33132644,
+                    "username": "snoak"
+                  }
+                },
+                {
+                  "kind": "traktList",
+                  "payload": {
+                    "listName": "Popular Romance Shows",
+                    "listSlug": "popular-romance-shows",
+                    "traktId": 33132723,
+                    "username": "snoak"
+                  }
+                }
+              ]
+            },
+            {
+              "hideTitle": true,
+              "id": "05DB199B-1F61-489A-BBAF-55529353A9AF",
+              "imageAspect": "wide",
+              "imageURL": "https://raw.githubusercontent.com/itsrenoria/fusion-starter-kit/refs/heads/main/resources/widgets/genres/wide/mousa.a/scifi-wide.png",
+              "title": "Scifi",
+              "dataSources": [
+                {
+                  "kind": "traktList",
+                  "payload": {
+                    "listName": "Popular Sci-Fi Movies",
+                    "listSlug": "popular-sci-fi-movies",
+                    "traktId": 33032944,
+                    "username": "snoak"
+                  }
+                },
+                {
+                  "kind": "traktList",
+                  "payload": {
+                    "listName": "Popular Sci-Fi Shows",
+                    "listSlug": "popular-sci-fi-shows",
+                    "traktId": 33032946,
+                    "username": "snoak"
+                  }
+                }
+              ]
+            },
+            {
+              "hideTitle": true,
+              "id": "5C563EDE-C19D-4D08-9948-2B7644FBDB94",
+              "imageAspect": "wide",
+              "imageURL": "https://raw.githubusercontent.com/itsrenoria/fusion-starter-kit/refs/heads/main/resources/widgets/genres/wide/mousa.a/thriller-wide.png",
+              "title": "Thriller",
+              "dataSources": [
+                {
+                  "kind": "traktList",
+                  "payload": {
+                    "listName": "Popular Thriller Movies",
+                    "listSlug": "popular-thriller-movies",
+                    "traktId": 33032952,
+                    "username": "snoak"
+                  }
+                },
+                {
+                  "kind": "traktList",
+                  "payload": {
+                    "listName": "Popular Thriller Shows",
+                    "listSlug": "popular-thriller-shows",
+                    "traktId": 33032950,
+                    "username": "snoak"
+                  }
+                }
+              ]
+            }
+          ]
+        }
+      },
+      "id": "collection.5EEC3374-77EF-429B-9A7A-BC68C5D934D0",
+      "title": "Genres",
+      "type": "collection.row"
+    }
+  ]
+}
