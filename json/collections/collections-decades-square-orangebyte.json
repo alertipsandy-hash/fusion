@@ -2,70 +2,70 @@
   {
     "backgroundImageURL": "https://raw.githubusercontent.com/itsrenoria/fusion-starter-kit/refs/heads/main/resources/widgets/decades/square/orangebyte/1930s-square.png",
     "hideTitle": true,
-    "id": "EEB9AD7B-1962-4903-9097-C87692DBC76E",
+    "id": "2CC80B6C-91F4-4C1C-BC9D-B53577952A43",
     "layout": "Square",
     "name": "1930s"
   },
   {
     "backgroundImageURL": "https://raw.githubusercontent.com/itsrenoria/fusion-starter-kit/refs/heads/main/resources/widgets/decades/square/orangebyte/1940s-square.png",
     "hideTitle": true,
-    "id": "6F585508-AF21-4605-BE1E-5D8897D67FF9",
+    "id": "A654D4D2-08A1-4BDD-8EFB-154FA53F2DE2",
     "layout": "Square",
     "name": "1940s"
   },
   {
     "backgroundImageURL": "https://raw.githubusercontent.com/itsrenoria/fusion-starter-kit/refs/heads/main/resources/widgets/decades/square/orangebyte/1950s-square.png",
     "hideTitle": true,
-    "id": "B1585685-B0CB-4D69-97F6-27397EE7171E",
+    "id": "32C4137C-3422-48C9-970D-52B7F4C8D6C0",
     "layout": "Square",
     "name": "1950s"
   },
   {
     "backgroundImageURL": "https://raw.githubusercontent.com/itsrenoria/fusion-starter-kit/refs/heads/main/resources/widgets/decades/square/orangebyte/1960s-square.png",
     "hideTitle": true,
-    "id": "5FF0AA58-9701-4E90-B4E1-6844F37D0BD4",
+    "id": "3A545616-1863-4F8B-853C-F28F77F72F97",
     "layout": "Square",
     "name": "1960s"
   },
   {
     "backgroundImageURL": "https://raw.githubusercontent.com/itsrenoria/fusion-starter-kit/refs/heads/main/resources/widgets/decades/square/orangebyte/1970s-square.png",
     "hideTitle": true,
-    "id": "2D4919C3-C8FD-4FE3-A9C8-16F0D6A0CDD7",
+    "id": "5BB70BDA-F757-446C-8D97-B7CA13328571",
     "layout": "Square",
     "name": "1970s"
   },
   {
     "backgroundImageURL": "https://raw.githubusercontent.com/itsrenoria/fusion-starter-kit/refs/heads/main/resources/widgets/decades/square/orangebyte/1980s-square.png",
     "hideTitle": true,
-    "id": "0950A413-DF7C-4106-AFEE-EB32EBF7874E",
+    "id": "CE3D34BF-5407-4D39-9A2C-61C00A9B2616",
     "layout": "Square",
     "name": "1980s"
   },
   {
     "backgroundImageURL": "https://raw.githubusercontent.com/itsrenoria/fusion-starter-kit/refs/heads/main/resources/widgets/decades/square/orangebyte/1990s-square.png",
     "hideTitle": true,
-    "id": "159FE656-CB04-47F5-A180-3370D2368C03",
+    "id": "F12FA24C-FE17-4ECB-98F1-E0E698B3748D",
     "layout": "Square",
     "name": "1990s"
   },
   {
     "backgroundImageURL": "https://raw.githubusercontent.com/itsrenoria/fusion-starter-kit/refs/heads/main/resources/widgets/decades/square/orangebyte/2000s-square.png",
     "hideTitle": true,
-    "id": "7B002F08-272B-413F-9937-D75C00027DBC",
+    "id": "A5FF5709-35F6-4CC1-8745-29D1F5CF810D",
     "layout": "Square",
     "name": "2000s"
   },
   {
     "backgroundImageURL": "https://raw.githubusercontent.com/itsrenoria/fusion-starter-kit/refs/heads/main/resources/widgets/decades/square/orangebyte/2010s-square.png",
     "hideTitle": true,
-    "id": "B53C3230-28B9-4D31-9750-A68A0BE9D2B3",
+    "id": "37FC6143-261B-4CB7-9429-F6D1E74B1CD7",
     "layout": "Square",
     "name": "2010s"
   },
   {
     "backgroundImageURL": "https://raw.githubusercontent.com/itsrenoria/fusion-starter-kit/refs/heads/main/resources/widgets/decades/square/orangebyte/2020s-square.png",
     "hideTitle": true,
-    "id": "D48F0FB3-B783-484C-883F-F8C2D7D23668",
+    "id": "492370BF-8D81-464C-BE93-D84FA1A23821",
     "layout": "Square",
     "name": "2020s"
   }

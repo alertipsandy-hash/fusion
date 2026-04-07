@@ -2,7 +2,7 @@
   {
     "backgroundImageURL": "https://raw.githubusercontent.com/itsrenoria/fusion-starter-kit/refs/heads/main/resources/widgets/genres/wide/mousa.a/action-wide.png",
     "hideTitle": true,
-    "id": "7E61586B-D27D-4B26-AE87-F59FEEB1F55C",
+    "id": "30F72DF2-BE9D-4AE7-92F6-3FF895E740F4",
     "layout": "Wide",
     "name": "Action",
     "dataSources": [
@@ -38,7 +38,7 @@
   {
     "backgroundImageURL": "https://raw.githubusercontent.com/itsrenoria/fusion-starter-kit/refs/heads/main/resources/widgets/genres/wide/mousa.a/comedy-wide.png",
     "hideTitle": true,
-    "id": "C61ACB69-530E-49D5-8250-67E561F37B17",
+    "id": "470B30BA-18A7-44B2-B31A-AEC43997EDB1",
     "layout": "Wide",
     "name": "Comedy",
     "dataSources": [
@@ -74,7 +74,7 @@
   {
     "backgroundImageURL": "https://raw.githubusercontent.com/itsrenoria/fusion-starter-kit/refs/heads/main/resources/widgets/genres/wide/mousa.a/crime-wide.png",
     "hideTitle": true,
-    "id": "317D367F-D18A-4D15-98A7-88B8C6641362",
+    "id": "FA6CFD6B-7E12-4975-B34B-4F4DFAD541D9",
     "layout": "Wide",
     "name": "Crime",
     "dataSources": [
@@ -110,7 +110,7 @@
   {
     "backgroundImageURL": "https://raw.githubusercontent.com/itsrenoria/fusion-starter-kit/refs/heads/main/resources/widgets/genres/wide/mousa.a/drama-wide.png",
     "hideTitle": true,
-    "id": "A8D38808-A2CE-4927-8DD4-67E173D96E1E",
+    "id": "6B035AE8-91B9-4134-AF98-41F6CB3DD7AE",
     "layout": "Wide",
     "name": "Drama",
     "dataSources": [
@@ -146,7 +146,7 @@
   {
     "backgroundImageURL": "https://raw.githubusercontent.com/itsrenoria/fusion-starter-kit/refs/heads/main/resources/widgets/genres/wide/mousa.a/fantasy-wide.png",
     "hideTitle": true,
-    "id": "84C7EAD2-BFBE-4368-A118-8E511D05E1F6",
+    "id": "ED0C82A1-25A4-4F69-A316-ED51E1FB52DE",
     "layout": "Wide",
     "name": "Fantasy",
     "dataSources": [
@@ -173,7 +173,7 @@
   {
     "backgroundImageURL": "https://raw.githubusercontent.com/itsrenoria/fusion-starter-kit/refs/heads/main/resources/widgets/genres/wide/mousa.a/horror-wide.png",
     "hideTitle": true,
-    "id": "C85D6A60-8C2E-426E-BC70-9A105A111E2B",
+    "id": "D4C4F0A1-9379-40DF-9177-6E65B6EB5F49",
     "layout": "Wide",
     "name": "Horror",
     "dataSources": [
@@ -209,7 +209,7 @@
   {
     "backgroundImageURL": "https://raw.githubusercontent.com/itsrenoria/fusion-starter-kit/refs/heads/main/resources/widgets/genres/wide/mousa.a/kids-wide.png",
     "hideTitle": true,
-    "id": "22738E60-8C9C-43A8-A06F-6B262149184A",
+    "id": "8276258D-7012-41B4-B1A3-13E9EE0A0A52",
     "layout": "Wide",
     "name": "Kids",
     "dataSources": [
@@ -245,7 +245,7 @@
   {
     "backgroundImageURL": "https://raw.githubusercontent.com/itsrenoria/fusion-starter-kit/refs/heads/main/resources/widgets/genres/wide/mousa.a/romance-wide.png",
     "hideTitle": true,
-    "id": "57735FE3-3429-4D11-AFD9-83AAD71A1FBB",
+    "id": "63F81E84-E86D-43EF-961A-F6826641DA77",
     "layout": "Wide",
     "name": "Romance",
     "dataSources": [
@@ -281,7 +281,7 @@
   {
     "backgroundImageURL": "https://raw.githubusercontent.com/itsrenoria/fusion-starter-kit/refs/heads/main/resources/widgets/genres/wide/mousa.a/scifi-wide.png",
     "hideTitle": true,
-    "id": "A88B0C9F-CADB-49B9-80E7-E20AC0ECFFB1",
+    "id": "509104A0-E795-4E59-B963-BD59D46B2607",
     "layout": "Wide",
     "name": "Scifi",
     "dataSources": [
@@ -317,7 +317,7 @@
   {
     "backgroundImageURL": "https://raw.githubusercontent.com/itsrenoria/fusion-starter-kit/refs/heads/main/resources/widgets/genres/wide/mousa.a/thriller-wide.png",
     "hideTitle": true,
-    "id": "EEDAFC6D-EDC6-40C1-84BF-CB0AD22B2F23",
+    "id": "0E44729F-9C3C-43BB-B61F-2C2FC63A7EFB",
     "layout": "Wide",
     "name": "Thriller",
     "dataSources": [

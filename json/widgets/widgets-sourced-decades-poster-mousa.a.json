@@ -9,7 +9,7 @@
           "items": [
             {
               "hideTitle": true,
-              "id": "7C7EABBE-ED3B-483A-B1E9-A50F00182F26",
+              "id": "A4A992CB-BA77-4617-8F4B-A6DE980A7E2C",
               "imageAspect": "poster",
               "imageURL": "https://raw.githubusercontent.com/itsrenoria/fusion-starter-kit/refs/heads/main/resources/widgets/decades/poster/mousa.a/1960s-poster.png",
               "title": "1960s",
@@ -27,7 +27,7 @@
             },
             {
               "hideTitle": true,
-              "id": "B8FA051F-3B8A-4638-96FE-DE58584744A0",
+              "id": "873ACCBB-7469-470A-B5B9-134B2CE9C7A2",
               "imageAspect": "poster",
               "imageURL": "https://raw.githubusercontent.com/itsrenoria/fusion-starter-kit/refs/heads/main/resources/widgets/decades/poster/mousa.a/1970s-poster.png",
               "title": "1970s",
@@ -45,7 +45,7 @@
             },
             {
               "hideTitle": true,
-              "id": "5DBABD96-2262-4673-8D47-2C74671DAE66",
+              "id": "1F8B097C-1711-4CF5-BD70-422029EDDCA8",
               "imageAspect": "poster",
               "imageURL": "https://raw.githubusercontent.com/itsrenoria/fusion-starter-kit/refs/heads/main/resources/widgets/decades/poster/mousa.a/1980s-poster.png",
               "title": "1980s",
@@ -63,7 +63,7 @@
             },
             {
               "hideTitle": true,
-              "id": "FA675063-4BDD-4AF3-BD61-3A7EA7AB5C95",
+              "id": "9CBBB2CF-5B35-4C8F-96DA-0FA51FAE41ED",
               "imageAspect": "poster",
               "imageURL": "https://raw.githubusercontent.com/itsrenoria/fusion-starter-kit/refs/heads/main/resources/widgets/decades/poster/mousa.a/1990s-poster.png",
               "title": "1990s",
@@ -81,7 +81,7 @@
             },
             {
               "hideTitle": true,
-              "id": "DB405970-DB75-41B2-B0CE-8007E6819CEF",
+              "id": "3423DED3-6B26-44FD-96A0-B5304E74B108",
               "imageAspect": "poster",
               "imageURL": "https://raw.githubusercontent.com/itsrenoria/fusion-starter-kit/refs/heads/main/resources/widgets/decades/poster/mousa.a/2000s-poster.png",
               "title": "2000s",
@@ -99,7 +99,7 @@
             },
             {
               "hideTitle": true,
-              "id": "BB15E8EF-8204-4451-885B-82ABD8C9BF16",
+              "id": "3DDBE12D-FCE4-4E14-8742-63E0FC3A41DE",
               "imageAspect": "poster",
               "imageURL": "https://raw.githubusercontent.com/itsrenoria/fusion-starter-kit/refs/heads/main/resources/widgets/decades/poster/mousa.a/2010s-poster.png",
               "title": "2010s",
@@ -117,7 +117,7 @@
             },
             {
               "hideTitle": true,
-              "id": "D13EFA31-43D8-4975-974C-1EC020D681A1",
+              "id": "7A0B9FCC-D32A-4761-92DD-CCDE36ED98E1",
               "imageAspect": "poster",
               "imageURL": "https://raw.githubusercontent.com/itsrenoria/fusion-starter-kit/refs/heads/main/resources/widgets/decades/poster/mousa.a/2020s-poster.png",
               "title": "2020s",
@@ -136,7 +136,7 @@
           ]
         }
       },
-      "id": "collection.9B25EF77-77CC-4066-BEB9-92400B89EFB6",
+      "id": "collection.F1D50A01-49BE-4917-926B-BFA43B8DAE69",
       "title": "Decades",
       "type": "collection.row"
     }

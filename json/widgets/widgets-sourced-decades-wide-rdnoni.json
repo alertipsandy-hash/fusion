@@ -9,7 +9,7 @@
           "items": [
             {
               "hideTitle": true,
-              "id": "C6E94F33-3BD9-4582-A78A-E9FCFC2E53B5",
+              "id": "8E789D0D-E348-4CD6-8068-CC5A0732613E",
               "imageAspect": "wide",
               "imageURL": "https://raw.githubusercontent.com/itsrenoria/fusion-starter-kit/refs/heads/main/resources/widgets/decades/wide/rdnoni/1980s-wide.jpg",
               "title": "1980s",
@@ -27,7 +27,7 @@
             },
             {
               "hideTitle": true,
-              "id": "7BE225B8-B8A3-48A2-ABB9-EAD216A4F78A",
+              "id": "CAA08D19-AB9E-470F-9958-5F52F86142E6",
               "imageAspect": "wide",
               "imageURL": "https://raw.githubusercontent.com/itsrenoria/fusion-starter-kit/refs/heads/main/resources/widgets/decades/wide/rdnoni/1990s-wide.jpg",
               "title": "1990s",
@@ -45,7 +45,7 @@
             },
             {
               "hideTitle": true,
-              "id": "D96F2DCC-AC27-4FA1-B430-40E84733152C",
+              "id": "0E09AADD-6E51-4833-9652-DD31940BBB6B",
               "imageAspect": "wide",
               "imageURL": "https://raw.githubusercontent.com/itsrenoria/fusion-starter-kit/refs/heads/main/resources/widgets/decades/wide/rdnoni/2000s-wide.jpg",
               "title": "2000s",
@@ -63,7 +63,7 @@
             },
             {
               "hideTitle": true,
-              "id": "3E9A3D75-2EC3-4860-A1ED-460501BB0CE9",
+              "id": "FB19F1E3-FDF7-4ABC-BBDA-41CD6AE6D949",
               "imageAspect": "wide",
               "imageURL": "https://raw.githubusercontent.com/itsrenoria/fusion-starter-kit/refs/heads/main/resources/widgets/decades/wide/rdnoni/2010s-wide.jpg",
               "title": "2010s",
@@ -81,7 +81,7 @@
             },
             {
               "hideTitle": true,
-              "id": "56F3BE1B-072E-49D1-AFD8-DD2283740A04",
+              "id": "1C46E09F-CC64-44C3-BF4C-F3300579469C",
               "imageAspect": "wide",
               "imageURL": "https://raw.githubusercontent.com/itsrenoria/fusion-starter-kit/refs/heads/main/resources/widgets/decades/wide/rdnoni/2020s-wide.jpg",
               "title": "2020s",
@@ -100,7 +100,7 @@
           ]
         }
       },
-      "id": "collection.1F8F0EDF-4F65-4312-8880-FDED86C77271",
+      "id": "collection.2F452A70-C2B4-432A-9F72-AA3F71FC6FFF",
       "title": "Decades",
       "type": "collection.row"
     }

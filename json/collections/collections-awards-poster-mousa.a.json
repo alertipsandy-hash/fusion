@@ -2,42 +2,42 @@
   {
     "backgroundImageURL": "https://raw.githubusercontent.com/itsrenoria/fusion-starter-kit/refs/heads/main/resources/widgets/awards/poster/mousa.a/bafta-poster.png",
     "hideTitle": true,
-    "id": "E4EB9847-1079-444C-86AA-400C8BC4E055",
+    "id": "33BAA70B-7846-4E6E-923D-A5C1F708CAB2",
     "layout": "Poster",
     "name": "Bafta"
   },
   {
     "backgroundImageURL": "https://raw.githubusercontent.com/itsrenoria/fusion-starter-kit/refs/heads/main/resources/widgets/awards/poster/mousa.a/fisa-poster.png",
     "hideTitle": true,
-    "id": "14256245-4BE0-463C-BD35-FCA543795677",
+    "id": "9DE99D53-D42B-484E-9657-633656FD21DB",
     "layout": "Poster",
     "name": "Fisa"
   },
   {
     "backgroundImageURL": "https://raw.githubusercontent.com/itsrenoria/fusion-starter-kit/refs/heads/main/resources/widgets/awards/poster/mousa.a/goldenglobes-poster.png",
     "hideTitle": true,
-    "id": "F182135E-596F-4991-94CA-DECB63C28784",
+    "id": "269B5168-4993-47E5-9340-3B2AEC917830",
     "layout": "Poster",
     "name": "Goldenglobes"
   },
   {
     "backgroundImageURL": "https://raw.githubusercontent.com/itsrenoria/fusion-starter-kit/refs/heads/main/resources/widgets/awards/poster/mousa.a/iff-poster.png",
     "hideTitle": true,
-    "id": "5D5B614C-A62F-42C8-BC92-3CAE611D07C3",
+    "id": "601EBA57-5BB1-4B5F-8BA5-4648C69BFDA8",
     "layout": "Poster",
     "name": "Iff"
   },
   {
     "backgroundImageURL": "https://raw.githubusercontent.com/itsrenoria/fusion-starter-kit/refs/heads/main/resources/widgets/awards/poster/mousa.a/oscars-poster.png",
     "hideTitle": true,
-    "id": "724FF6DF-1B2E-418B-A8B4-E265E5E0771C",
+    "id": "3A17C028-0AC8-4FB6-A6A9-510BB0049356",
     "layout": "Poster",
     "name": "Oscars"
   },
   {
     "backgroundImageURL": "https://raw.githubusercontent.com/itsrenoria/fusion-starter-kit/refs/heads/main/resources/widgets/awards/poster/mousa.a/viff-poster.png",
     "hideTitle": true,
-    "id": "0BD982F5-BC3D-4859-9E8B-E1267C32A064",
+    "id": "42A30419-C96E-4FB8-B64F-19E78BBCA13E",
     "layout": "Poster",
     "name": "Viff"
   }

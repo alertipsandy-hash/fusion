@@ -2,7 +2,7 @@
   {
     "backgroundImageURL": "https://raw.githubusercontent.com/itsrenoria/fusion-starter-kit/refs/heads/main/resources/widgets/directors/wide/fexm92/anderson-wide.png",
     "hideTitle": true,
-    "id": "96BC5FBA-C36B-4073-9316-205A1BE5F6E5",
+    "id": "7C622FB2-35E7-4ACF-AE76-1F932693A152",
     "layout": "Wide",
     "name": "Anderson",
     "dataSources": [
@@ -29,7 +29,7 @@
   {
     "backgroundImageURL": "https://raw.githubusercontent.com/itsrenoria/fusion-starter-kit/refs/heads/main/resources/widgets/directors/wide/fexm92/carpenter-wide.png",
     "hideTitle": true,
-    "id": "B8981F52-A61A-4954-83B3-AE5330BE4E77",
+    "id": "5085E3B2-9A5B-44A9-8335-09D2D7DE89C9",
     "layout": "Wide",
     "name": "Carpenter",
     "dataSources": [
@@ -56,7 +56,7 @@
   {
     "backgroundImageURL": "https://raw.githubusercontent.com/itsrenoria/fusion-starter-kit/refs/heads/main/resources/widgets/directors/wide/fexm92/depalma-wide.png",
     "hideTitle": true,
-    "id": "0C254994-7EAB-411A-AE9B-AAC0532459D6",
+    "id": "DF98A7F0-7892-4CBE-996D-099719DD69E5",
     "layout": "Wide",
     "name": "Depalma",
     "dataSources": [
@@ -83,7 +83,7 @@
   {
     "backgroundImageURL": "https://raw.githubusercontent.com/itsrenoria/fusion-starter-kit/refs/heads/main/resources/widgets/directors/wide/fexm92/fincher-wide.png",
     "hideTitle": true,
-    "id": "82CB6997-2849-4DA4-B5A9-A3FDB8B7C8DD",
+    "id": "E0CB6059-F242-4618-B3E1-EC5F14A5576E",
     "layout": "Wide",
     "name": "Fincher",
     "dataSources": [
@@ -110,7 +110,7 @@
   {
     "backgroundImageURL": "https://raw.githubusercontent.com/itsrenoria/fusion-starter-kit/refs/heads/main/resources/widgets/directors/wide/fexm92/hitchcock-wide.png",
     "hideTitle": true,
-    "id": "CBED6B14-FAE3-49EA-AE75-67D06000E1CA",
+    "id": "D0B16EB5-E102-47E3-B2F8-BD572F17BB22",
     "layout": "Wide",
     "name": "Hitchcock",
     "dataSources": [
@@ -137,7 +137,7 @@
   {
     "backgroundImageURL": "https://raw.githubusercontent.com/itsrenoria/fusion-starter-kit/refs/heads/main/resources/widgets/directors/wide/fexm92/kubrick-wide.png",
     "hideTitle": true,
-    "id": "9C40EDC7-8E12-4AB6-82DD-701BFE35BC9E",
+    "id": "05FD38C5-E4C6-46EB-889D-F5762AF718C6",
     "layout": "Wide",
     "name": "Kubrick",
     "dataSources": [
@@ -164,7 +164,7 @@
   {
     "backgroundImageURL": "https://raw.githubusercontent.com/itsrenoria/fusion-starter-kit/refs/heads/main/resources/widgets/directors/wide/fexm92/nolan-wide.png",
     "hideTitle": true,
-    "id": "DF004461-831F-4038-A30E-53958BC81B31",
+    "id": "F5EC4A74-0DA2-418D-BF7A-F8C371D8E88A",
     "layout": "Wide",
     "name": "Nolan",
     "dataSources": [
@@ -191,7 +191,7 @@
   {
     "backgroundImageURL": "https://raw.githubusercontent.com/itsrenoria/fusion-starter-kit/refs/heads/main/resources/widgets/directors/wide/fexm92/scorsese-wide.png",
     "hideTitle": true,
-    "id": "5215C918-8354-4912-B4E9-CE51217D5DAB",
+    "id": "9B1ED7ED-423A-4C65-A080-F5ABCE25B726",
     "layout": "Wide",
     "name": "Scorsese",
     "dataSources": [
@@ -218,7 +218,7 @@
   {
     "backgroundImageURL": "https://raw.githubusercontent.com/itsrenoria/fusion-starter-kit/refs/heads/main/resources/widgets/directors/wide/fexm92/spielberg-wide.png",
     "hideTitle": true,
-    "id": "D593CD58-1173-46F3-B4FB-B534A3CC4F39",
+    "id": "930195F5-716A-49FA-B462-D8C0268D897D",
     "layout": "Wide",
     "name": "Spielberg",
     "dataSources": [
@@ -245,7 +245,7 @@
   {
     "backgroundImageURL": "https://raw.githubusercontent.com/itsrenoria/fusion-starter-kit/refs/heads/main/resources/widgets/directors/wide/fexm92/villeneuve-wide.png",
     "hideTitle": true,
-    "id": "0834809D-F7C7-4CD8-A39E-04A0C8D46EBB",
+    "id": "6B6B03F0-57DE-4488-AC05-330875A1891B",
     "layout": "Wide",
     "name": "Villeneuve",
     "dataSources": [

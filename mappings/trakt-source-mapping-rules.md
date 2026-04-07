@@ -57,7 +57,7 @@ Updated: 2026-02-23T10:41:40
 | The Golden Globes | https://trakt.tv/users/danielle0412/lists/rotten-tomatoes-golden-globes-best-picture-winners-by-tomatometer-copy | search (danielle0412) | 1 | mapped | — |
 | The Cannes Film Festival | https://trakt.tv/users/pierredurrr/lists/festival-de-cannes-palme-d-or-winners | search (pierredurrr) | 1 | mapped | — |
 | The Academy Awards (Oscars) | https://trakt.tv/users/jackrabbitslim/lists/the-oscars-best-picture-nominees | search (jackrabbitslim) | 1 | mapped | — |
-| The Venice Film Festival | https://trakt.tv/users/maxwelldeux/lists/venice-film-festival-golden-lion | search (maxwelldeux) | 1 | mapped | — |
+| The Venice Film Festival | https://trakt.tv/users/zorge88/lists/venice-film-festival | search (zorge88) | 1 | mapped | — |
 
 ## Directors (10)
 
@@ -159,7 +159,7 @@ Updated: 2026-02-23T10:41:40
 | Super Shocks | https://trakt.tv/users/rizreflects/lists/supernatural-horrors | search (rizreflects) | — | — | 1 | mapped | — |
 | Superheroes | https://trakt.tv/users/rizreflects/lists/superhero-movies | search (rizreflects) | — | — | 1 | mapped | — |
 | Tearjerkers | https://trakt.tv/users/rizreflects/lists/melodramas | search (rizreflects) | — | — | 1 | mapped | — |
-| Techno Thrillers | https://trakt.tv/users/acanas/lists/recommended-techno-cyber-thrillers-in-progress | search (acanas) | — | — | 1 | partial | — |
+| Techno Thrillers | https://trakt.tv/users/acanas/lists/recommended-techno-cyber-thrillers | search (acanas) | — | — | 1 | partial | — |
 | Thriller | https://trakt.tv/users/snoak/lists/popular-thriller-movies | snoak | https://trakt.tv/users/snoak/lists/popular-thriller-shows | snoak | 2 | mapped | — |
 | Treasure Hunts | https://trakt.tv/users/waynecity/lists/treasure-hunts | search (waynecity) | — | — | 1 | partial | — |
 | Vhs Era Frightmares | https://trakt.tv/users/mmagtech/lists/vhs-nightmares | search (mmagtech) | — | — | 1 | mapped | — |

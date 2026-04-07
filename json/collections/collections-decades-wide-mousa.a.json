@@ -2,49 +2,49 @@
   {
     "backgroundImageURL": "https://raw.githubusercontent.com/itsrenoria/fusion-starter-kit/refs/heads/main/resources/widgets/decades/wide/mousa.a/1960s-wide.png",
     "hideTitle": true,
-    "id": "D63CAAA3-D791-4B15-9024-99429A62EA35",
+    "id": "5370CC81-E45C-44A0-85F5-0E37594B3487",
     "layout": "Wide",
     "name": "1960s"
   },
   {
     "backgroundImageURL": "https://raw.githubusercontent.com/itsrenoria/fusion-starter-kit/refs/heads/main/resources/widgets/decades/wide/mousa.a/1970s-wide.png",
     "hideTitle": true,
-    "id": "78D1CD02-88E9-40E2-A3A5-3295AF0FA90B",
+    "id": "482D919D-DAC5-4CAE-91C8-C7C0C9C7CBC3",
     "layout": "Wide",
     "name": "1970s"
   },
   {
     "backgroundImageURL": "https://raw.githubusercontent.com/itsrenoria/fusion-starter-kit/refs/heads/main/resources/widgets/decades/wide/mousa.a/1980s-wide.png",
     "hideTitle": true,
-    "id": "68E6A89F-BF42-4CA6-AC38-75AF04D2FB03",
+    "id": "1C5F29AB-C758-49D1-9E06-499BDEABFDE8",
     "layout": "Wide",
     "name": "1980s"
   },
   {
     "backgroundImageURL": "https://raw.githubusercontent.com/itsrenoria/fusion-starter-kit/refs/heads/main/resources/widgets/decades/wide/mousa.a/1990s-wide.png",
     "hideTitle": true,
-    "id": "64386261-7B51-4CE6-9E40-E40B3E001B56",
+    "id": "D71B44A5-9A1F-435A-822C-3BF162383141",
     "layout": "Wide",
     "name": "1990s"
   },
   {
     "backgroundImageURL": "https://raw.githubusercontent.com/itsrenoria/fusion-starter-kit/refs/heads/main/resources/widgets/decades/wide/mousa.a/2000s-wide.png",
     "hideTitle": true,
-    "id": "08893C0C-5DE7-42C0-88F3-18827FA569DC",
+    "id": "162F8FE0-A081-427B-ABCC-F7ECF7A26731",
     "layout": "Wide",
     "name": "2000s"
   },
   {
     "backgroundImageURL": "https://raw.githubusercontent.com/itsrenoria/fusion-starter-kit/refs/heads/main/resources/widgets/decades/wide/mousa.a/2010s-wide.png",
     "hideTitle": true,
-    "id": "3A8D821E-9340-4222-AFDC-D35D025B8519",
+    "id": "1C692AE0-D9A7-49B1-992F-EA527D3A55CA",
     "layout": "Wide",
     "name": "2010s"
   },
   {
     "backgroundImageURL": "https://raw.githubusercontent.com/itsrenoria/fusion-starter-kit/refs/heads/main/resources/widgets/decades/wide/mousa.a/2020s-wide.png",
     "hideTitle": true,
-    "id": "1BB7C0EB-1D9B-4C40-8F92-1CE9D5F3EE2B",
+    "id": "47526FFB-40EA-4E21-8DAB-96AE099221CF",
     "layout": "Wide",
     "name": "2020s"
   }

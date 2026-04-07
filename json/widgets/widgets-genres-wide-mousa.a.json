@@ -9,70 +9,70 @@
           "items": [
             {
               "hideTitle": true,
-              "id": "F86163BE-73CA-4704-8350-32C1975772A5",
+              "id": "7286E56D-6E90-43D3-8370-1C48327796CB",
               "imageAspect": "wide",
               "imageURL": "https://raw.githubusercontent.com/itsrenoria/fusion-starter-kit/refs/heads/main/resources/widgets/genres/wide/mousa.a/action-wide.png",
               "title": "Action"
             },
             {
               "hideTitle": true,
-              "id": "B38A5CB7-9DE0-40BA-AC5A-C7D856C5A1C0",
+              "id": "B23A949F-29E4-4E58-8181-7E2267FAE275",
               "imageAspect": "wide",
               "imageURL": "https://raw.githubusercontent.com/itsrenoria/fusion-starter-kit/refs/heads/main/resources/widgets/genres/wide/mousa.a/comedy-wide.png",
               "title": "Comedy"
             },
             {
               "hideTitle": true,
-              "id": "8E229741-35AA-483D-8E04-1B1C0AB12725",
+              "id": "9E336312-CE91-4D94-9310-315C4DB9584E",
               "imageAspect": "wide",
               "imageURL": "https://raw.githubusercontent.com/itsrenoria/fusion-starter-kit/refs/heads/main/resources/widgets/genres/wide/mousa.a/crime-wide.png",
               "title": "Crime"
             },
             {
               "hideTitle": true,
-              "id": "C4BD1D3B-5845-4E8C-94E0-CB8F121A19B0",
+              "id": "B84A9DB2-2843-4085-8AFE-662870E2A766",
               "imageAspect": "wide",
               "imageURL": "https://raw.githubusercontent.com/itsrenoria/fusion-starter-kit/refs/heads/main/resources/widgets/genres/wide/mousa.a/drama-wide.png",
               "title": "Drama"
             },
             {
               "hideTitle": true,
-              "id": "4F0A7400-BF42-4E12-8A7C-9EB147DE79EC",
+              "id": "F9863FD3-EF57-4A07-98F3-DF5FD09FCDAE",
               "imageAspect": "wide",
               "imageURL": "https://raw.githubusercontent.com/itsrenoria/fusion-starter-kit/refs/heads/main/resources/widgets/genres/wide/mousa.a/fantasy-wide.png",
               "title": "Fantasy"
             },
             {
               "hideTitle": true,
-              "id": "3F311BE5-75F4-450C-8D70-20D89794D08F",
+              "id": "6EF1DACD-ABA9-4FBC-A053-30185F8CC9A6",
               "imageAspect": "wide",
               "imageURL": "https://raw.githubusercontent.com/itsrenoria/fusion-starter-kit/refs/heads/main/resources/widgets/genres/wide/mousa.a/horror-wide.png",
               "title": "Horror"
             },
             {
               "hideTitle": true,
-              "id": "3AC94766-2D6C-4EAF-83E9-5C3F94E7717C",
+              "id": "B28FC9B1-07D3-4BDC-93C9-BB9A72702F99",
               "imageAspect": "wide",
               "imageURL": "https://raw.githubusercontent.com/itsrenoria/fusion-starter-kit/refs/heads/main/resources/widgets/genres/wide/mousa.a/kids-wide.png",
               "title": "Kids"
             },
             {
               "hideTitle": true,
-              "id": "02B7500B-1BA4-41A4-B0F7-70B3652AB77C",
+              "id": "2304B8A3-49F8-4F18-9DD0-5EA6DB5DF990",
               "imageAspect": "wide",
               "imageURL": "https://raw.githubusercontent.com/itsrenoria/fusion-starter-kit/refs/heads/main/resources/widgets/genres/wide/mousa.a/romance-wide.png",
               "title": "Romance"
             },
             {
               "hideTitle": true,
-              "id": "05DB199B-1F61-489A-BBAF-55529353A9AF",
+              "id": "51F1B8C1-EF4C-4DB6-89A1-7E1726756658",
               "imageAspect": "wide",
               "imageURL": "https://raw.githubusercontent.com/itsrenoria/fusion-starter-kit/refs/heads/main/resources/widgets/genres/wide/mousa.a/scifi-wide.png",
               "title": "Scifi"
             },
             {
               "hideTitle": true,
-              "id": "5C563EDE-C19D-4D08-9948-2B7644FBDB94",
+              "id": "0A118744-1059-43CA-A76F-0918EAE2EDB1",
               "imageAspect": "wide",
               "imageURL": "https://raw.githubusercontent.com/itsrenoria/fusion-starter-kit/refs/heads/main/resources/widgets/genres/wide/mousa.a/thriller-wide.png",
               "title": "Thriller"
@@ -80,7 +80,7 @@
           ]
         }
       },
-      "id": "collection.5EEC3374-77EF-429B-9A7A-BC68C5D934D0",
+      "id": "collection.EC32981B-E4E0-41C6-8359-F95382E30313",
       "title": "Genres",
       "type": "collection.row"
     }
