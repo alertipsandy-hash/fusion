@@ -16,7 +16,7 @@ Open an issue or PR for fixes and new packs.
 
 If you have resources to share or Trakt list mappings to contribute, feel free to reach out:
 
-[![Discord](https://cdn.simpleicons.org/discord/5865F2)](https://discord.com/users/116597014166241282)
+[![Discord](https://img.shields.io/badge/-5865F2?style=flat-square&logo=discord&logoColor=white)](https://discord.com/users/116597014166241282)
 
 ## Credits and Disclaimer
 
