@@ -12,11 +12,7 @@ Use the site as the source of truth for previews, available packs, and copy link
 
 ## Contributing
 
-Open an issue or PR for fixes and new packs.
-
-If you have resources to share or Trakt list mappings to contribute, feel free to reach out:
-
-[![Discord](https://img.shields.io/badge/-5865F2?style=flat-square&logo=discord&logoColor=white)](https://discord.com/users/116597014166241282)
+Open an issue or PR for fixes, new packs, shared resources, or Trakt list mappings.
 
 ## Credits and Disclaimer
 
