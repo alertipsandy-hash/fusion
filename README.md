@@ -10,52 +10,13 @@ Browse the full catalog here:
 
 Use the site as the source of truth for previews, available packs, and copy links.
 
-## Import in Fusion 2
-
-Use the following import paths by type:
-
-| Type | Import Path |
-| --- | --- |
-| Full Setup | `Widgets > Import Widgets > JSON URL` |
-| BYO Full Setup | `Widgets > Import Widgets > Paste JSON` |
-| Widgets | `Widgets > Import Widgets > JSON URL` |
-| Collections | `Widgets > Add New > Collections Row > Import Collections > JSON URL` |
-| Icon Packs | `Settings > Icon Packs > Add Icon Pack` |
-| AIO Formatter | Import via your AIOStreams Formatter JSON import flow |
-
-## Repository Structure
-
-```text
-resources/
-  widgets/
-  setup/
-  aio-formatter/
-  icon-packs/
-
-json/
-  widgets/
-  collections/
-  setup/
-  aio-formatter/
-  icon-packs/
-
-preview/
-docs/
-```
-
-Notes:
-
-- `resources/widgets` is the source asset library for both widget and collection JSON outputs.
-- `preview` stores setup/BYO preview media (videos and poster images) used by the site cards.
-- `docs/index.html` is the generated site.
-
 ## Contributing
 
-Open an issue or PR for fixes/new packs, or reach out directly on Discord:
+Open an issue or PR for fixes and new packs.
 
-[![Discord](https://img.shields.io/badge/Discord-itsrenoria-5865F2?logo=discord&logoColor=white)](https://discord.com)
+If you have resources to share or Trakt list mappings to contribute, feel free to reach out:
 
-Discord: `itsrenoria`
+[![Discord](https://cdn.simpleicons.org/discord/5865F2)](https://discord.com/users/116597014166241282)
 
 ## Credits and Disclaimer
 
