@@ -6,7 +6,7 @@ A curated collection of resources for Fusion 2.
 
 Browse the full catalog here:
 
-[https://itsrenoria.github.io/fusion-starter-kit/](https://itsrenoria.github.io/fusion-starter-kit/)
+[https://kit.betterer.cc/](https://kit.betterer.cc/)
 
 Use the site as the source of truth for previews, available packs, and copy links.
 

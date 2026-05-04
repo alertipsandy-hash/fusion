@@ -8,11 +8,17 @@
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link href="https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@300;400;500;600;700&family=Space+Mono:wght@400;700&display=swap" rel="stylesheet">
     <script>
-        window.goatcounter = {
-            no_onload: location.protocol === 'file:' || location.hostname === 'localhost' || location.hostname === '127.0.0.1'
-        };
+        (function () {
+            const oldPath = "/fusion-starter-kit/";
+            if (location.hostname !== "itsrenoria.github.io" || !location.pathname.startsWith(oldPath)) {
+                return;
+            }
+
+            const newPath = location.pathname.slice(oldPath.length);
+            location.replace(`https://kit.betterer.cc/${newPath}${location.search}${location.hash}`);
+        })();
     </script>
-    <script data-goatcounter="https://itsrenoria.goatcounter.com/count" async src="https://gc.zgo.at/count.js"></script>
+    <!-- Cloudflare Web Analytics --><script defer src="https://static.cloudflareinsights.com/beacon.min.js" data-cf-beacon='{"token":"b71712fa9c49470babf70ea26de2489a"}'></script><!-- End Cloudflare Web Analytics -->
     <style>
         * {
             box-sizing: border-box;
