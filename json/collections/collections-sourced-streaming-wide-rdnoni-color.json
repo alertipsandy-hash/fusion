@@ -247,7 +247,36 @@
     "hideTitle": true,
     "id": "FB34CC30-BC28-499C-993A-3A8BD9A11334",
     "layout": "Wide",
-    "name": "Kdramaplus"
+    "name": "Kdramaplus",
+    "dataSources": [
+      {
+        "kind": "traktList",
+        "payload": {
+          "listName": "Popular KDrama Movies",
+          "listSlug": "popular-kdrama-movies",
+          "traktId": 33265536,
+          "username": "snoak"
+        }
+      },
+      {
+        "kind": "traktList",
+        "payload": {
+          "listName": "Popular KDrama Shows",
+          "listSlug": "popular-kdrama-shows",
+          "traktId": 33265509,
+          "username": "snoak"
+        }
+      }
+    ],
+    "dataSource": {
+      "kind": "traktList",
+      "payload": {
+        "listName": "Popular KDrama Movies",
+        "listSlug": "popular-kdrama-movies",
+        "traktId": 33265536,
+        "username": "snoak"
+      }
+    }
   },
   {
     "backgroundImageURL": "https://raw.githubusercontent.com/itsrenoria/fusion-starter-kit/refs/heads/main/resources/widgets/streaming/wide/rdnoni/color/netflixdark-wide-color.jpg",
@@ -470,6 +499,26 @@
     "hideTitle": true,
     "id": "69221A9B-4A3C-437B-8C21-A2076F1B4CEF",
     "layout": "Wide",
-    "name": "Shudder"
+    "name": "Shudder",
+    "dataSources": [
+      {
+        "kind": "traktList",
+        "payload": {
+          "listName": "Latest Shudder Movies",
+          "listSlug": "latest-shudder-movies",
+          "traktId": 34579074,
+          "username": "snoak"
+        }
+      }
+    ],
+    "dataSource": {
+      "kind": "traktList",
+      "payload": {
+        "listName": "Latest Shudder Movies",
+        "listSlug": "latest-shudder-movies",
+        "traktId": 34579074,
+        "username": "snoak"
+      }
+    }
   }
 ]

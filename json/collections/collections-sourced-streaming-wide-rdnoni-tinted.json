@@ -175,7 +175,36 @@
     "hideTitle": true,
     "id": "6022DC18-F7BE-4C54-9115-D6DCFF353AF3",
     "layout": "Wide",
-    "name": "Kdramaplus"
+    "name": "Kdramaplus",
+    "dataSources": [
+      {
+        "kind": "traktList",
+        "payload": {
+          "listName": "Popular KDrama Movies",
+          "listSlug": "popular-kdrama-movies",
+          "traktId": 33265536,
+          "username": "snoak"
+        }
+      },
+      {
+        "kind": "traktList",
+        "payload": {
+          "listName": "Popular KDrama Shows",
+          "listSlug": "popular-kdrama-shows",
+          "traktId": 33265509,
+          "username": "snoak"
+        }
+      }
+    ],
+    "dataSource": {
+      "kind": "traktList",
+      "payload": {
+        "listName": "Popular KDrama Movies",
+        "listSlug": "popular-kdrama-movies",
+        "traktId": 33265536,
+        "username": "snoak"
+      }
+    }
   },
   {
     "backgroundImageURL": "https://raw.githubusercontent.com/itsrenoria/fusion-starter-kit/refs/heads/main/resources/widgets/streaming/wide/rdnoni/tinted/netflixdark-wide-tinted.png",

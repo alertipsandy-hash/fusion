@@ -138,7 +138,27 @@
               "id": "4DEE8DE2-8CC7-4C39-93BE-5C0614E6302A",
               "imageAspect": "wide",
               "imageURL": "https://raw.githubusercontent.com/itsrenoria/fusion-starter-kit/refs/heads/main/resources/widgets/streaming/wide/rdnoni/tinted/kdramaplus-wide-tinted.png",
-              "title": "Kdramaplus"
+              "title": "Kdramaplus",
+              "dataSources": [
+                {
+                  "kind": "traktList",
+                  "payload": {
+                    "listName": "Popular KDrama Movies",
+                    "listSlug": "popular-kdrama-movies",
+                    "traktId": 33265536,
+                    "username": "snoak"
+                  }
+                },
+                {
+                  "kind": "traktList",
+                  "payload": {
+                    "listName": "Popular KDrama Shows",
+                    "listSlug": "popular-kdrama-shows",
+                    "traktId": 33265509,
+                    "username": "snoak"
+                  }
+                }
+              ]
             },
             {
               "hideTitle": true,
