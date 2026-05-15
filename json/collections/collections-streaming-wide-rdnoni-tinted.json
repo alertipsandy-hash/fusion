@@ -1,0 +1,72 @@
+[
+  {
+    "backgroundImageURL": "https://raw.githubusercontent.com/itsrenoria/fusion-starter-kit/refs/heads/main/resources/widgets/streaming/wide/rdnoni/tinted/appletv-wide-tinted.png",
+    "hideTitle": true,
+    "id": "405005B6-22E1-42C4-A6F6-A6985EEC43AE",
+    "layout": "Wide",
+    "name": "Appletv"
+  },
+  {
+    "backgroundImageURL": "https://raw.githubusercontent.com/itsrenoria/fusion-starter-kit/refs/heads/main/resources/widgets/streaming/wide/rdnoni/tinted/crunchyroll-wide-tinted.png",
+    "hideTitle": true,
+    "id": "1741E9A9-F362-4E86-BB9B-DCEF1E30CDAA",
+    "layout": "Wide",
+    "name": "Crunchyroll"
+  },
+  {
+    "backgroundImageURL": "https://raw.githubusercontent.com/itsrenoria/fusion-starter-kit/refs/heads/main/resources/widgets/streaming/wide/rdnoni/tinted/discoveryplus-wide-tinted.png",
+    "hideTitle": true,
+    "id": "14422782-2F43-4499-A8CB-E1CD64D59BCA",
+    "layout": "Wide",
+    "name": "Discoveryplus"
+  },
+  {
+    "backgroundImageURL": "https://raw.githubusercontent.com/itsrenoria/fusion-starter-kit/refs/heads/main/resources/widgets/streaming/wide/rdnoni/tinted/disney-wide-tinted.png",
+    "hideTitle": true,
+    "id": "95301529-6563-415A-8584-462C4BE0BCAE",
+    "layout": "Wide",
+    "name": "Disney"
+  },
+  {
+    "backgroundImageURL": "https://raw.githubusercontent.com/itsrenoria/fusion-starter-kit/refs/heads/main/resources/widgets/streaming/wide/rdnoni/tinted/hbomax-wide-tinted.png",
+    "hideTitle": true,
+    "id": "D97FC53E-53DB-4A0C-8727-4D677C9689C9",
+    "layout": "Wide",
+    "name": "Hbomax"
+  },
+  {
+    "backgroundImageURL": "https://raw.githubusercontent.com/itsrenoria/fusion-starter-kit/refs/heads/main/resources/widgets/streaming/wide/rdnoni/tinted/kdramaplus-wide-tinted.png",
+    "hideTitle": true,
+    "id": "6022DC18-F7BE-4C54-9115-D6DCFF353AF3",
+    "layout": "Wide",
+    "name": "Kdramaplus"
+  },
+  {
+    "backgroundImageURL": "https://raw.githubusercontent.com/itsrenoria/fusion-starter-kit/refs/heads/main/resources/widgets/streaming/wide/rdnoni/tinted/netflixdark-wide-tinted.png",
+    "hideTitle": true,
+    "id": "323CD028-51A8-4B66-885C-FA81B79777D9",
+    "layout": "Wide",
+    "name": "Netflixdark"
+  },
+  {
+    "backgroundImageURL": "https://raw.githubusercontent.com/itsrenoria/fusion-starter-kit/refs/heads/main/resources/widgets/streaming/wide/rdnoni/tinted/netflixred-wide-tinted.png",
+    "hideTitle": true,
+    "id": "7FF20019-CFE2-42AE-8255-4A8BEDE1774C",
+    "layout": "Wide",
+    "name": "Netflixred"
+  },
+  {
+    "backgroundImageURL": "https://raw.githubusercontent.com/itsrenoria/fusion-starter-kit/refs/heads/main/resources/widgets/streaming/wide/rdnoni/tinted/paramount-wide-tinted.png",
+    "hideTitle": true,
+    "id": "B2D2E06D-F61C-4DC9-AA32-CCD144F5B08A",
+    "layout": "Wide",
+    "name": "Paramount"
+  },
+  {
+    "backgroundImageURL": "https://raw.githubusercontent.com/itsrenoria/fusion-starter-kit/refs/heads/main/resources/widgets/streaming/wide/rdnoni/tinted/primevideo-wide-tinted.png",
+    "hideTitle": true,
+    "id": "6B5CDF92-D13F-4CE7-919E-088E0E0FB0DF",
+    "layout": "Wide",
+    "name": "Primevideo"
+  }
+]

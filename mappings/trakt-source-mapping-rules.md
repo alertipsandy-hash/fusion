@@ -11,7 +11,7 @@ Updated: 2026-02-23T10:41:40
 - If movie and show use the same URL/source, it is shown once and `Total Lists` is `1`.
 - Genres are split into two sections: non-dannyrutledge and dannyrutledge, with overlap shown in both.
 
-## Streaming (17)
+## Streaming (19)
 
 | Term | Movies | Movies Source | Shows | Shows Source | Total Lists | Status | Notes |
 |---|---|---|---|---|---|---|---|
@@ -23,6 +23,7 @@ Updated: 2026-02-23T10:41:40
 | Disney | https://trakt.tv/users/snoak/lists/top-disney-movies | snoak | https://trakt.tv/users/snoak/lists/top-disney-shows | snoak | 2 | mapped | — |
 | HBO Max | https://trakt.tv/users/snoak/lists/top-hbo-max-movies | snoak | https://trakt.tv/users/snoak/lists/top-hbo-max-shows | snoak | 2 | mapped | — |
 | Hulu | https://trakt.tv/users/snoak/lists/top-hulu-movies | snoak | https://trakt.tv/users/snoak/lists/top-hulu-shows | snoak | 2 | mapped | — |
+| KDrama+ | — | — | — | — | 0 | skip | No source mapping yet. |
 | Livetv | — | — | — | — | 0 | skip | Skipped by request. |
 | MagellanTV | https://trakt.tv/users/steffe73/lists/magellantv-list-by-steffe73 | search (steffe73) | — | — | 1 | mapped | Name normalized from magllentv asset slug to MagellanTV. |
 | Max | https://trakt.tv/users/tvgeniekodi/lists/max-movies | tvgeniekodi | https://trakt.tv/users/tvgeniekodi/lists/max-shows | tvgeniekodi | 2 | mapped | — |
@@ -30,6 +31,7 @@ Updated: 2026-02-23T10:41:40
 | Paramount | https://trakt.tv/users/snoak/lists/top-paramount-movies | snoak | https://trakt.tv/users/snoak/lists/top-paramount-shows | snoak | 2 | mapped | — |
 | Peacock | https://trakt.tv/users/tvgeniekodi/lists/peacock-movies | tvgeniekodi | https://trakt.tv/users/tvgeniekodi/lists/peacock-shows | tvgeniekodi | 2 | mapped | — |
 | Prime Video | https://trakt.tv/users/snoak/lists/top-amazon-prime-movies | snoak | https://trakt.tv/users/snoak/lists/top-amazon-prime-shows | snoak | 2 | mapped | — |
+| Shudder | — | — | — | — | 0 | skip | No source mapping yet. |
 | SkyShowtime | https://trakt.tv/users/certefied/lists/skyshowtime | search (certefied) | — | — | 1 | mapped | — |
 | Videoland | https://trakt.tv/users/certefied/lists/videoland | search (certefied) | — | — | 1 | mapped | — |
 
